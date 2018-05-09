@@ -1,0 +1,41 @@
+PODS:
+  - AAViewAnimator (0.1.0)
+  - CLWeeklyCalendarView (0.0.3)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - Mapbox-iOS-SDK (3.5.4)
+  - PopupController (0.2.0)
+  - RDVKeyboardAvoiding (1.1.0)
+  - TPKeyboardAvoiding (1.3.1)
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - AAViewAnimator
+  - CLWeeklyCalendarView
+  - GoogleMaps
+  - GooglePlaces
+  - Mapbox-iOS-SDK (~> 3.5)
+  - PopupController
+  - RDVKeyboardAvoiding
+  - TPKeyboardAvoiding
+  - WYPopoverController
+
+SPEC CHECKSUMS:
+  AAViewAnimator: 9a4ae454bb428ebaed906ec4e6e250150bee790e
+  CLWeeklyCalendarView: 74d8511e58b40cb9571afc51b90217e32b51f891
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  Mapbox-iOS-SDK: 81197829dcf4c4ed9a593b7a95462881b5f1309a
+  PopupController: 0b69fdf11cbeaa807789a8c3992599083640988f
+  RDVKeyboardAvoiding: 5570e656400e7adfd8cd76cd6748544376899735
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+PODFILE CHECKSUM: 08b206de97b88c02975bcd9a7bc19a11d940ae80
+
+COCOAPODS: 1.2.1

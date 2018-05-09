@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51F458F012EBF604705730F8 /* Pods_DazzlePanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF68F0F6518B916652C110 /* Pods_DazzlePanel.framework */; };
+		801701C31EDE05C500C31567 /* Assets_infoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801701C21EDE05C500C31567 /* Assets_infoWindow.xib */; };
+		801701C51EDE066100C31567 /* Assets_infowindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801701C41EDE066100C31567 /* Assets_infowindowView.swift */; };
+		802F423A1EE4DB3E004D3127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802F42391EE4DB3E004D3127 /* UIKit.framework */; };
+		802F423D1EE4E50C004D3127 /* DemoPopupViewController2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802F423B1EE4E50C004D3127 /* DemoPopupViewController2.storyboard */; };
+		802F423E1EE4E50C004D3127 /* DemoPopupViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F423C1EE4E50C004D3127 /* DemoPopupViewController2.swift */; };
+		80344EAE1F058A450082C342 /* KATCircularProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 80344EAD1F058A450082C342 /* KATCircularProgress.m */; };
+		80344EB01F05CF480082C342 /* AssetsViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80344EAF1F05CF480082C342 /* AssetsViewCell1.swift */; };
+		80382B1B1EE9462F00A76422 /* ReportsMapViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80382B1A1EE9462F00A76422 /* ReportsMapViewCell.swift */; };
+		80382B1D1EE9479B00A76422 /* ReportsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80382B1C1EE9479B00A76422 /* ReportsMapViewController.swift */; };
+		80382B1F1EE9CE0300A76422 /* AddPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80382B1E1EE9CE0300A76422 /* AddPaymentViewController.swift */; };
+		803EAF371EDCA86B0067EFB5 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EAF361EDCA86B0067EFB5 /* ServerManager.swift */; };
+		804553931EE6366B000F9E89 /* UserMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804553921EE6366B000F9E89 /* UserMapViewController.swift */; };
+		805BF0DF1EEB2CCC004E0BD0 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805BF0DD1EEB2CCC004E0BD0 /* KeyboardAvoiding.swift */; };
+		805BF0E01EEB2CCC004E0BD0 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805BF0DE1EEB2CCC004E0BD0 /* KeyboardDismissingView.swift */; };
+		806190B91ED6023300D69CB6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190B81ED6023300D69CB6 /* SignUpViewController.swift */; };
+		806190BB1ED6026D00D69CB6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190BA1ED6026D00D69CB6 /* TabBarViewController.swift */; };
+		806190C61ED61D1E00D69CB6 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190C51ED61D1E00D69CB6 /* DashboardViewController.swift */; };
+		806190C81ED61D4E00D69CB6 /* AssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190C71ED61D4E00D69CB6 /* AssetsViewController.swift */; };
+		806190CA1ED61D6800D69CB6 /* AssetEditMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190C91ED61D6800D69CB6 /* AssetEditMenuViewController.swift */; };
+		806190CC1ED61D8000D69CB6 /* AssetsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190CB1ED61D8000D69CB6 /* AssetsScreenViewController.swift */; };
+		806190CE1ED61DA400D69CB6 /* AssetsUnfoldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190CD1ED61DA400D69CB6 /* AssetsUnfoldViewController.swift */; };
+		806190D01ED61DB500D69CB6 /* AssetsEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190CF1ED61DB500D69CB6 /* AssetsEditViewController.swift */; };
+		806190D41ED61E1F00D69CB6 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190D31ED61E1F00D69CB6 /* ReportsViewController.swift */; };
+		806190D61ED61E5100D69CB6 /* Account+BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806190D51ED61E5100D69CB6 /* Account+BalanceViewController.swift */; };
+		8075DA3D1EE1697B008A2A85 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075DA3C1EE1697B008A2A85 /* CustomCalloutView.swift */; };
+		8091AD8B1ED84B6F009326B3 /* AssetsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091AD8A1ED84B6F009326B3 /* AssetsViewCell.swift */; };
+		8091AD8D1ED8F64F009326B3 /* User_TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091AD8C1ED8F64F009326B3 /* User_TabBarViewController.swift */; };
+		8092FC971EDD7BAD004EB80E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8092FC961EDD7BAD004EB80E /* MapKit.framework */; };
+		809FCCAD1EEAB8BE00195C71 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809FCCAC1EEAB8BE00195C71 /* ProfileViewController.swift */; };
+		80A5BB201EE71BE300161DB1 /* LocationInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5BB1F1EE71BE300161DB1 /* LocationInfoItem.swift */; };
+		80AF1DBD1EDC36C500CFA115 /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF1DBC1EDC36C500CFA115 /* SharedManager.swift */; };
+		80B07E6F1EEA1D0A00E5E34D /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B07E6E1EEA1D0A00E5E34D /* PlanViewController.swift */; };
+		80B1A0751EE4729900A2439D /* WYSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B1A0741EE4729900A2439D /* WYSettingsViewController.swift */; };
+		80B1A0771EE479C500A2439D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B1A0761EE479C500A2439D /* QuartzCore.framework */; };
+		80B1A0791EE479D300A2439D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B1A0781EE479D300A2439D /* CoreGraphics.framework */; };
+		80B4E4CA1ED79BC800660A7D /* Driver_DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4E4C91ED79BC800660A7D /* Driver_DashboardController.swift */; };
+		80B537B81ED4C2760071BCEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B537B71ED4C2760071BCEA /* AppDelegate.swift */; };
+		80B537BA1ED4C2760071BCEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B537B91ED4C2760071BCEA /* ViewController.swift */; };
+		80B537BD1ED4C2760071BCEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B537BB1ED4C2760071BCEA /* Main.storyboard */; };
+		80B537BF1ED4C2760071BCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B537BE1ED4C2760071BCEA /* Assets.xcassets */; };
+		80B537C21ED4C2760071BCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B537C01ED4C2760071BCEA /* LaunchScreen.storyboard */; };
+		80B537CD1ED4C2760071BCEA /* DazzlePanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B537CC1ED4C2760071BCEA /* DazzlePanelTests.swift */; };
+		80B537D81ED4C2760071BCEA /* DazzlePanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B537D71ED4C2760071BCEA /* DazzlePanelUITests.swift */; };
+		80EDB2871EE5535000BA4A39 /* AssetsInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EDB2861EE5535000BA4A39 /* AssetsInformation.swift */; };
+		80F726841EDB62E6008153AC /* MapTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F726811EDB62E6008153AC /* MapTasks.swift */; };
+		80F726851EDB62E6008153AC /* RouteInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F726821EDB62E6008153AC /* RouteInfoItem.swift */; };
+		80F726861EDB62E6008153AC /* RouteStepInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F726831EDB62E6008153AC /* RouteStepInfoItem.swift */; };
+		A5EA2A66A9E964860008E973 /* Pods_DazzlePanelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC20374BFEC4B292593EF8F7 /* Pods_DazzlePanelTests.framework */; };
+		A7B221D62C802759A15BFEA2 /* Pods_DazzlePanelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D6778CB80621FBABFD0CA50 /* Pods_DazzlePanelUITests.framework */; };
+		A904D4A6D595B35E25DA878E /* Pods_DazzlePanel_DazzlePanelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CBF1C385E6921E84CBBFFC /* Pods_DazzlePanel_DazzlePanelTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80B537C91ED4C2760071BCEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B537AC1ED4C2760071BCEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B537B31ED4C2760071BCEA;
+			remoteInfo = DazzlePanel;
+		};
+		80B537D41ED4C2760071BCEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80B537AC1ED4C2760071BCEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B537B31ED4C2760071BCEA;
+			remoteInfo = DazzlePanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		451EF31F573171E66C271E42 /* Pods-DazzlePanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzlePanel.release.xcconfig"; path = "Pods/Target Support Files/Pods-DazzlePanel/Pods-DazzlePanel.release.xcconfig"; sourceTree = "<group>"; };
+		5D0E74DE03E876EAF3E6E103 /* Pods-DazzlePanelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzlePanelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DazzlePanelUITests/Pods-DazzlePanelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		801701C21EDE05C500C31567 /* Assets_infoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Assets_infoWindow.xib; path = View/Assets_infoWindow.xib; sourceTree = "<group>"; };
+		801701C41EDE066100C31567 /* Assets_infowindowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assets_infowindowView.swift; path = View/Assets_infowindowView.swift; sourceTree = "<group>"; };
+		802F42391EE4DB3E004D3127 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		802F423B1EE4E50C004D3127 /* DemoPopupViewController2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = DemoPopupViewController2.storyboard; path = View/DemoPopupViewController2.storyboard; sourceTree = "<group>"; };
+		802F423C1EE4E50C004D3127 /* DemoPopupViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoPopupViewController2.swift; path = View/DemoPopupViewController2.swift; sourceTree = "<group>"; };
+		80344EAB1F058A3D0082C342 /* DazzlePanel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DazzlePanel-Bridging-Header.h"; sourceTree = "<group>"; };
+		80344EAC1F058A450082C342 /* KATCircularProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KATCircularProgress.h; path = Model/Classes/KATCircularProgress.h; sourceTree = "<group>"; };
+		80344EAD1F058A450082C342 /* KATCircularProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KATCircularProgress.m; path = Model/Classes/KATCircularProgress.m; sourceTree = "<group>"; };
+		80344EAF1F05CF480082C342 /* AssetsViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsViewCell1.swift; path = Assets/AssetsViewCell1.swift; sourceTree = "<group>"; };
+		80382B1A1EE9462F00A76422 /* ReportsMapViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportsMapViewCell.swift; path = View/ReportsMapViewCell.swift; sourceTree = "<group>"; };
+		80382B1C1EE9479B00A76422 /* ReportsMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportsMapViewController.swift; path = Report/ReportsMapViewController.swift; sourceTree = "<group>"; };
+		80382B1E1EE9CE0300A76422 /* AddPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPaymentViewController.swift; path = "Account&Payment/AddPaymentViewController.swift"; sourceTree = "<group>"; };
+		803EAF361EDCA86B0067EFB5 /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerManager.swift; path = Model/ServerManager.swift; sourceTree = "<group>"; };
+		804553921EE6366B000F9E89 /* UserMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserMapViewController.swift; path = Map/UserMapViewController.swift; sourceTree = "<group>"; };
+		805BF0DD1EEB2CCC004E0BD0 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Model/KeyboardAvoiding/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		805BF0DE1EEB2CCC004E0BD0 /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Model/KeyboardAvoiding/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		806190B81ED6023300D69CB6 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		806190BA1ED6026D00D69CB6 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		806190C51ED61D1E00D69CB6 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = Dashboard/DashboardViewController.swift; sourceTree = "<group>"; };
+		806190C71ED61D4E00D69CB6 /* AssetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsViewController.swift; path = Assets/AssetsViewController.swift; sourceTree = "<group>"; };
+		806190C91ED61D6800D69CB6 /* AssetEditMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetEditMenuViewController.swift; path = Assets/AssetEditMenuViewController.swift; sourceTree = "<group>"; };
+		806190CB1ED61D8000D69CB6 /* AssetsScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsScreenViewController.swift; path = Assets/AssetsScreenViewController.swift; sourceTree = "<group>"; };
+		806190CD1ED61DA400D69CB6 /* AssetsUnfoldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsUnfoldViewController.swift; path = Assets/AssetsUnfoldViewController.swift; sourceTree = "<group>"; };
+		806190CF1ED61DB500D69CB6 /* AssetsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsEditViewController.swift; path = Assets/AssetsEditViewController.swift; sourceTree = "<group>"; };
+		806190D31ED61E1F00D69CB6 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportsViewController.swift; path = Report/ReportsViewController.swift; sourceTree = "<group>"; };
+		806190D51ED61E5100D69CB6 /* Account+BalanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Account+BalanceViewController.swift"; path = "Account&Payment/Account+BalanceViewController.swift"; sourceTree = "<group>"; };
+		8075DA3C1EE1697B008A2A85 /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCalloutView.swift; path = Model/CustomCalloutView.swift; sourceTree = "<group>"; };
+		8091AD8A1ED84B6F009326B3 /* AssetsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsViewCell.swift; path = Assets/AssetsViewCell.swift; sourceTree = "<group>"; };
+		8091AD8C1ED8F64F009326B3 /* User_TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User_TabBarViewController.swift; sourceTree = "<group>"; };
+		8092FC961EDD7BAD004EB80E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		809FCCAC1EEAB8BE00195C71 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "Account&Payment/ProfileViewController.swift"; sourceTree = "<group>"; };
+		80A5BB1F1EE71BE300161DB1 /* LocationInfoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationInfoItem.swift; path = Model/LocationInfoItem.swift; sourceTree = "<group>"; };
+		80AF1DBC1EDC36C500CFA115 /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedManager.swift; path = Model/SharedManager.swift; sourceTree = "<group>"; };
+		80B07E6E1EEA1D0A00E5E34D /* PlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanViewController.swift; path = "Account&Payment/PlanViewController.swift"; sourceTree = "<group>"; };
+		80B1A0741EE4729900A2439D /* WYSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WYSettingsViewController.swift; path = View/WYSettingsViewController.swift; sourceTree = "<group>"; };
+		80B1A0761EE479C500A2439D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80B1A0781EE479D300A2439D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80B4E4C91ED79BC800660A7D /* Driver_DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Driver_DashboardController.swift; path = Dashboard/Driver_DashboardController.swift; sourceTree = "<group>"; };
+		80B537B41ED4C2760071BCEA /* DazzlePanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DazzlePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B537B71ED4C2760071BCEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80B537B91ED4C2760071BCEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B537BC1ED4C2760071BCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80B537BE1ED4C2760071BCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80B537C11ED4C2760071BCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80B537C31ED4C2760071BCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B537C81ED4C2760071BCEA /* DazzlePanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DazzlePanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B537CC1ED4C2760071BCEA /* DazzlePanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DazzlePanelTests.swift; sourceTree = "<group>"; };
+		80B537CE1ED4C2760071BCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B537D31ED4C2760071BCEA /* DazzlePanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DazzlePanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B537D71ED4C2760071BCEA /* DazzlePanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DazzlePanelUITests.swift; sourceTree = "<group>"; };
+		80B537D91ED4C2760071BCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80EDB2861EE5535000BA4A39 /* AssetsInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssetsInformation.swift; path = Model/AssetsInformation.swift; sourceTree = "<group>"; };
+		80F726811EDB62E6008153AC /* MapTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapTasks.swift; path = Model/MapTasks.swift; sourceTree = "<group>"; };
+		80F726821EDB62E6008153AC /* RouteInfoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteInfoItem.swift; path = Model/RouteInfoItem.swift; sourceTree = "<group>"; };
+		80F726831EDB62E6008153AC /* RouteStepInfoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteStepInfoItem.swift; path = Model/RouteStepInfoItem.swift; sourceTree = "<group>"; };
+		94D4A583C072258055FC66F0 /* Pods-DazzlePanel-DazzlePanelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzlePanel-DazzlePanelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Pods-DazzlePanel-DazzlePanelTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D6778CB80621FBABFD0CA50 /* Pods_DazzlePanelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DazzlePanelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC85D5E6A09DC63CEC333B68 /* Pods-DazzlePanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzlePanel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DazzlePanel/Pods-DazzlePanel.debug.xcconfig"; sourceTree = "<group>"; };
+		CFEF68F0F6518B916652C110 /* Pods_DazzlePanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DazzlePanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CBF1C385E6921E84CBBFFC /* Pods_DazzlePanel_DazzlePanelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DazzlePanel_DazzlePanelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22183F05469B9DABE92F1ED /* Pods-DazzlePanelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzlePanelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DazzlePanelUITests/Pods-DazzlePanelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC20374BFEC4B292593EF8F7 /* Pods_DazzlePanelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DazzlePanelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF18F849E8CE67287AADA6B /* Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B537B11ED4C2760071BCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802F423A1EE4DB3E004D3127 /* UIKit.framework in Frameworks */,
+				80B1A0791EE479D300A2439D /* CoreGraphics.framework in Frameworks */,
+				80B1A0771EE479C500A2439D /* QuartzCore.framework in Frameworks */,
+				8092FC971EDD7BAD004EB80E /* MapKit.framework in Frameworks */,
+				51F458F012EBF604705730F8 /* Pods_DazzlePanel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B537C51ED4C2760071BCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EA2A66A9E964860008E973 /* Pods_DazzlePanelTests.framework in Frameworks */,
+				A904D4A6D595B35E25DA878E /* Pods_DazzlePanel_DazzlePanelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B537D01ED4C2760071BCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B221D62C802759A15BFEA2 /* Pods_DazzlePanelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		638AC74F7F1AE3E1EEB6096B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802F42391EE4DB3E004D3127 /* UIKit.framework */,
+				80B1A0781EE479D300A2439D /* CoreGraphics.framework */,
+				80B1A0761EE479C500A2439D /* QuartzCore.framework */,
+				8092FC961EDD7BAD004EB80E /* MapKit.framework */,
+				CFEF68F0F6518B916652C110 /* Pods_DazzlePanel.framework */,
+				EC20374BFEC4B292593EF8F7 /* Pods_DazzlePanelTests.framework */,
+				9D6778CB80621FBABFD0CA50 /* Pods_DazzlePanelUITests.framework */,
+				D2CBF1C385E6921E84CBBFFC /* Pods_DazzlePanel_DazzlePanelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		801701C11EDE055A00C31567 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				802F423B1EE4E50C004D3127 /* DemoPopupViewController2.storyboard */,
+				802F423C1EE4E50C004D3127 /* DemoPopupViewController2.swift */,
+				801701C21EDE05C500C31567 /* Assets_infoWindow.xib */,
+				801701C41EDE066100C31567 /* Assets_infowindowView.swift */,
+				80B1A0741EE4729900A2439D /* WYSettingsViewController.swift */,
+				80382B1A1EE9462F00A76422 /* ReportsMapViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8051F7C31EDB4C0500A45104 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80E43C001F05070700A2E6CF /* CircularProgress */,
+				805BF0DC1EEB2CAE004E0BD0 /* KeyboardAvoiding */,
+				803EAF361EDCA86B0067EFB5 /* ServerManager.swift */,
+				80F726811EDB62E6008153AC /* MapTasks.swift */,
+				80F726821EDB62E6008153AC /* RouteInfoItem.swift */,
+				80F726831EDB62E6008153AC /* RouteStepInfoItem.swift */,
+				80AF1DBC1EDC36C500CFA115 /* SharedManager.swift */,
+				8075DA3C1EE1697B008A2A85 /* CustomCalloutView.swift */,
+				80EDB2861EE5535000BA4A39 /* AssetsInformation.swift */,
+				80A5BB1F1EE71BE300161DB1 /* LocationInfoItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8051F7C41EDB4C2800A45104 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				806190C31ED61C7200D69CB6 /* Report */,
+				806190C41ED61C7D00D69CB6 /* Account&Payment */,
+				806190C21ED61C6B00D69CB6 /* Map */,
+				806190C11ED61C5E00D69CB6 /* Assets */,
+				806190C01ED61C5300D69CB6 /* Dashboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		805BF0DC1EEB2CAE004E0BD0 /* KeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				805BF0DD1EEB2CCC004E0BD0 /* KeyboardAvoiding.swift */,
+				805BF0DE1EEB2CCC004E0BD0 /* KeyboardDismissingView.swift */,
+			);
+			name = KeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		806190C01ED61C5300D69CB6 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				806190C51ED61D1E00D69CB6 /* DashboardViewController.swift */,
+				80B4E4C91ED79BC800660A7D /* Driver_DashboardController.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		806190C11ED61C5E00D69CB6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8091AD891ED84B0D009326B3 /* Cells */,
+				806190C71ED61D4E00D69CB6 /* AssetsViewController.swift */,
+				806190C91ED61D6800D69CB6 /* AssetEditMenuViewController.swift */,
+				806190CB1ED61D8000D69CB6 /* AssetsScreenViewController.swift */,
+				806190CD1ED61DA400D69CB6 /* AssetsUnfoldViewController.swift */,
+				806190CF1ED61DB500D69CB6 /* AssetsEditViewController.swift */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		806190C21ED61C6B00D69CB6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				804553921EE6366B000F9E89 /* UserMapViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		806190C31ED61C7200D69CB6 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				806190D31ED61E1F00D69CB6 /* ReportsViewController.swift */,
+				80382B1C1EE9479B00A76422 /* ReportsMapViewController.swift */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
+		806190C41ED61C7D00D69CB6 /* Account&Payment */ = {
+			isa = PBXGroup;
+			children = (
+				806190D51ED61E5100D69CB6 /* Account+BalanceViewController.swift */,
+				80382B1E1EE9CE0300A76422 /* AddPaymentViewController.swift */,
+				80B07E6E1EEA1D0A00E5E34D /* PlanViewController.swift */,
+				809FCCAC1EEAB8BE00195C71 /* ProfileViewController.swift */,
+			);
+			name = "Account&Payment";
+			sourceTree = "<group>";
+		};
+		8091AD891ED84B0D009326B3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8091AD8A1ED84B6F009326B3 /* AssetsViewCell.swift */,
+				80344EAF1F05CF480082C342 /* AssetsViewCell1.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		80B537AB1ED4C2760071BCEA = {
+			isa = PBXGroup;
+			children = (
+				80B537B61ED4C2760071BCEA /* DazzlePanel */,
+				80B537CB1ED4C2760071BCEA /* DazzlePanelTests */,
+				80B537D61ED4C2760071BCEA /* DazzlePanelUITests */,
+				80B537B51ED4C2760071BCEA /* Products */,
+				D3FC4D69455842D6E2B6C5E5 /* Pods */,
+				638AC74F7F1AE3E1EEB6096B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80B537B51ED4C2760071BCEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B537B41ED4C2760071BCEA /* DazzlePanel.app */,
+				80B537C81ED4C2760071BCEA /* DazzlePanelTests.xctest */,
+				80B537D31ED4C2760071BCEA /* DazzlePanelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B537B61ED4C2760071BCEA /* DazzlePanel */ = {
+			isa = PBXGroup;
+			children = (
+				8051F7C41EDB4C2800A45104 /* Controller */,
+				8051F7C31EDB4C0500A45104 /* Model */,
+				801701C11EDE055A00C31567 /* View */,
+				80B537B71ED4C2760071BCEA /* AppDelegate.swift */,
+				80B537B91ED4C2760071BCEA /* ViewController.swift */,
+				80B537BB1ED4C2760071BCEA /* Main.storyboard */,
+				80B537BE1ED4C2760071BCEA /* Assets.xcassets */,
+				80B537C01ED4C2760071BCEA /* LaunchScreen.storyboard */,
+				80B537C31ED4C2760071BCEA /* Info.plist */,
+				806190B81ED6023300D69CB6 /* SignUpViewController.swift */,
+				806190BA1ED6026D00D69CB6 /* TabBarViewController.swift */,
+				8091AD8C1ED8F64F009326B3 /* User_TabBarViewController.swift */,
+			);
+			path = DazzlePanel;
+			sourceTree = "<group>";
+		};
+		80B537CB1ED4C2760071BCEA /* DazzlePanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B537CC1ED4C2760071BCEA /* DazzlePanelTests.swift */,
+				80B537CE1ED4C2760071BCEA /* Info.plist */,
+			);
+			path = DazzlePanelTests;
+			sourceTree = "<group>";
+		};
+		80B537D61ED4C2760071BCEA /* DazzlePanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80B537D71ED4C2760071BCEA /* DazzlePanelUITests.swift */,
+				80B537D91ED4C2760071BCEA /* Info.plist */,
+			);
+			path = DazzlePanelUITests;
+			sourceTree = "<group>";
+		};
+		80E43C001F05070700A2E6CF /* CircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				80344EAC1F058A450082C342 /* KATCircularProgress.h */,
+				80344EAD1F058A450082C342 /* KATCircularProgress.m */,
+				80344EAB1F058A3D0082C342 /* DazzlePanel-Bridging-Header.h */,
+			);
+			name = CircularProgress;
+			sourceTree = "<group>";
+		};
+		D3FC4D69455842D6E2B6C5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC85D5E6A09DC63CEC333B68 /* Pods-DazzlePanel.debug.xcconfig */,
+				451EF31F573171E66C271E42 /* Pods-DazzlePanel.release.xcconfig */,
+				5D0E74DE03E876EAF3E6E103 /* Pods-DazzlePanelUITests.debug.xcconfig */,
+				E22183F05469B9DABE92F1ED /* Pods-DazzlePanelUITests.release.xcconfig */,
+				EDF18F849E8CE67287AADA6B /* Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig */,
+				94D4A583C072258055FC66F0 /* Pods-DazzlePanel-DazzlePanelTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B537B31ED4C2760071BCEA /* DazzlePanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B537DC1ED4C2760071BCEA /* Build configuration list for PBXNativeTarget "DazzlePanel" */;
+			buildPhases = (
+				0B472E78B6932A560963F38E /* [CP] Check Pods Manifest.lock */,
+				80B537B01ED4C2760071BCEA /* Sources */,
+				80B537B11ED4C2760071BCEA /* Frameworks */,
+				80B537B21ED4C2760071BCEA /* Resources */,
+				5D8210528FC56FBCBD9CF404 /* [CP] Embed Pods Frameworks */,
+				BB439EA5D5607FE20FC48DBD /* [CP] Copy Pods Resources */,
+				8034E9181EDF331B00DEC459 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DazzlePanel;
+			productName = DazzlePanel;
+			productReference = 80B537B41ED4C2760071BCEA /* DazzlePanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80B537C71ED4C2760071BCEA /* DazzlePanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B537DF1ED4C2760071BCEA /* Build configuration list for PBXNativeTarget "DazzlePanelTests" */;
+			buildPhases = (
+				E801E9F6C0261858EA6C7BA5 /* [CP] Check Pods Manifest.lock */,
+				80B537C41ED4C2760071BCEA /* Sources */,
+				80B537C51ED4C2760071BCEA /* Frameworks */,
+				80B537C61ED4C2760071BCEA /* Resources */,
+				982E2E78DF421C0A7F00ACAD /* [CP] Embed Pods Frameworks */,
+				EA275D19BF85CB55EB00715E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B537CA1ED4C2760071BCEA /* PBXTargetDependency */,
+			);
+			name = DazzlePanelTests;
+			productName = DazzlePanelTests;
+			productReference = 80B537C81ED4C2760071BCEA /* DazzlePanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80B537D21ED4C2760071BCEA /* DazzlePanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B537E21ED4C2760071BCEA /* Build configuration list for PBXNativeTarget "DazzlePanelUITests" */;
+			buildPhases = (
+				BFD5209A697B9847DAE76BBC /* [CP] Check Pods Manifest.lock */,
+				80B537CF1ED4C2760071BCEA /* Sources */,
+				80B537D01ED4C2760071BCEA /* Frameworks */,
+				80B537D11ED4C2760071BCEA /* Resources */,
+				423FA74067FAC1C3B6AC2F56 /* [CP] Embed Pods Frameworks */,
+				6C90D2C968C4D7E1BC1F0B8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80B537D51ED4C2760071BCEA /* PBXTargetDependency */,
+			);
+			name = DazzlePanelUITests;
+			productName = DazzlePanelUITests;
+			productReference = 80B537D31ED4C2760071BCEA /* DazzlePanelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B537AC1ED4C2760071BCEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = For;
+				TargetAttributes = {
+					80B537B31ED4C2760071BCEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2VS4N6P44U;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					80B537C71ED4C2760071BCEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B537B31ED4C2760071BCEA;
+					};
+					80B537D21ED4C2760071BCEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80B537B31ED4C2760071BCEA;
+					};
+				};
+			};
+			buildConfigurationList = 80B537AF1ED4C2760071BCEA /* Build configuration list for PBXProject "DazzlePanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80B537AB1ED4C2760071BCEA;
+			productRefGroup = 80B537B51ED4C2760071BCEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B537B31ED4C2760071BCEA /* DazzlePanel */,
+				80B537C71ED4C2760071BCEA /* DazzlePanelTests */,
+				80B537D21ED4C2760071BCEA /* DazzlePanelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B537B21ED4C2760071BCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801701C31EDE05C500C31567 /* Assets_infoWindow.xib in Resources */,
+				80B537C21ED4C2760071BCEA /* LaunchScreen.storyboard in Resources */,
+				80B537BF1ED4C2760071BCEA /* Assets.xcassets in Resources */,
+				80B537BD1ED4C2760071BCEA /* Main.storyboard in Resources */,
+				802F423D1EE4E50C004D3127 /* DemoPopupViewController2.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B537C61ED4C2760071BCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B537D11ED4C2760071BCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B472E78B6932A560963F38E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		423FA74067FAC1C3B6AC2F56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzlePanelUITests/Pods-DazzlePanelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D8210528FC56FBCBD9CF404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzlePanel/Pods-DazzlePanel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C90D2C968C4D7E1BC1F0B8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzlePanelUITests/Pods-DazzlePanelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8034E9181EDF331B00DEC459 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		982E2E78DF421C0A7F00ACAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Pods-DazzlePanel-DazzlePanelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB439EA5D5607FE20FC48DBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzlePanel/Pods-DazzlePanel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD5209A697B9847DAE76BBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E801E9F6C0261858EA6C7BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA275D19BF85CB55EB00715E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Pods-DazzlePanel-DazzlePanelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B537B01ED4C2760071BCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803EAF371EDCA86B0067EFB5 /* ServerManager.swift in Sources */,
+				80382B1D1EE9479B00A76422 /* ReportsMapViewController.swift in Sources */,
+				8091AD8B1ED84B6F009326B3 /* AssetsViewCell.swift in Sources */,
+				80344EB01F05CF480082C342 /* AssetsViewCell1.swift in Sources */,
+				806190BB1ED6026D00D69CB6 /* TabBarViewController.swift in Sources */,
+				802F423E1EE4E50C004D3127 /* DemoPopupViewController2.swift in Sources */,
+				80F726861EDB62E6008153AC /* RouteStepInfoItem.swift in Sources */,
+				809FCCAD1EEAB8BE00195C71 /* ProfileViewController.swift in Sources */,
+				805BF0DF1EEB2CCC004E0BD0 /* KeyboardAvoiding.swift in Sources */,
+				8091AD8D1ED8F64F009326B3 /* User_TabBarViewController.swift in Sources */,
+				806190D61ED61E5100D69CB6 /* Account+BalanceViewController.swift in Sources */,
+				80B1A0751EE4729900A2439D /* WYSettingsViewController.swift in Sources */,
+				80344EAE1F058A450082C342 /* KATCircularProgress.m in Sources */,
+				804553931EE6366B000F9E89 /* UserMapViewController.swift in Sources */,
+				80F726851EDB62E6008153AC /* RouteInfoItem.swift in Sources */,
+				806190B91ED6023300D69CB6 /* SignUpViewController.swift in Sources */,
+				8075DA3D1EE1697B008A2A85 /* CustomCalloutView.swift in Sources */,
+				80B4E4CA1ED79BC800660A7D /* Driver_DashboardController.swift in Sources */,
+				80A5BB201EE71BE300161DB1 /* LocationInfoItem.swift in Sources */,
+				80AF1DBD1EDC36C500CFA115 /* SharedManager.swift in Sources */,
+				806190CE1ED61DA400D69CB6 /* AssetsUnfoldViewController.swift in Sources */,
+				806190D41ED61E1F00D69CB6 /* ReportsViewController.swift in Sources */,
+				806190CC1ED61D8000D69CB6 /* AssetsScreenViewController.swift in Sources */,
+				806190C61ED61D1E00D69CB6 /* DashboardViewController.swift in Sources */,
+				80B537BA1ED4C2760071BCEA /* ViewController.swift in Sources */,
+				80B537B81ED4C2760071BCEA /* AppDelegate.swift in Sources */,
+				806190C81ED61D4E00D69CB6 /* AssetsViewController.swift in Sources */,
+				80F726841EDB62E6008153AC /* MapTasks.swift in Sources */,
+				80B07E6F1EEA1D0A00E5E34D /* PlanViewController.swift in Sources */,
+				805BF0E01EEB2CCC004E0BD0 /* KeyboardDismissingView.swift in Sources */,
+				80382B1B1EE9462F00A76422 /* ReportsMapViewCell.swift in Sources */,
+				806190CA1ED61D6800D69CB6 /* AssetEditMenuViewController.swift in Sources */,
+				80EDB2871EE5535000BA4A39 /* AssetsInformation.swift in Sources */,
+				801701C51EDE066100C31567 /* Assets_infowindowView.swift in Sources */,
+				806190D01ED61DB500D69CB6 /* AssetsEditViewController.swift in Sources */,
+				80382B1F1EE9CE0300A76422 /* AddPaymentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B537C41ED4C2760071BCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B537CD1ED4C2760071BCEA /* DazzlePanelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B537CF1ED4C2760071BCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B537D81ED4C2760071BCEA /* DazzlePanelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80B537CA1ED4C2760071BCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B537B31ED4C2760071BCEA /* DazzlePanel */;
+			targetProxy = 80B537C91ED4C2760071BCEA /* PBXContainerItemProxy */;
+		};
+		80B537D51ED4C2760071BCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B537B31ED4C2760071BCEA /* DazzlePanel */;
+			targetProxy = 80B537D41ED4C2760071BCEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80B537BB1ED4C2760071BCEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B537BC1ED4C2760071BCEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80B537C01ED4C2760071BCEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B537C11ED4C2760071BCEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B537DA1ED4C2760071BCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80B537DB1ED4C2760071BCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B537DD1ED4C2760071BCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC85D5E6A09DC63CEC333B68 /* Pods-DazzlePanel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2VS4N6P44U;
+				INFOPLIST_FILE = DazzlePanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DazzlePanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DazzlePanel/DazzlePanel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80B537DE1ED4C2760071BCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451EF31F573171E66C271E42 /* Pods-DazzlePanel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2VS4N6P44U;
+				INFOPLIST_FILE = DazzlePanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DazzlePanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DazzlePanel/DazzlePanel-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		80B537E01ED4C2760071BCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF18F849E8CE67287AADA6B /* Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DazzlePanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DazzlePanelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DazzlePanel.app/DazzlePanel";
+			};
+			name = Debug;
+		};
+		80B537E11ED4C2760071BCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D4A583C072258055FC66F0 /* Pods-DazzlePanel-DazzlePanelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DazzlePanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DazzlePanelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DazzlePanel.app/DazzlePanel";
+			};
+			name = Release;
+		};
+		80B537E31ED4C2760071BCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0E74DE03E876EAF3E6E103 /* Pods-DazzlePanelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DazzlePanelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DazzlePanelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DazzlePanel;
+			};
+			name = Debug;
+		};
+		80B537E41ED4C2760071BCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22183F05469B9DABE92F1ED /* Pods-DazzlePanelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DazzlePanelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.DazzlePanelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DazzlePanel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B537AF1ED4C2760071BCEA /* Build configuration list for PBXProject "DazzlePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B537DA1ED4C2760071BCEA /* Debug */,
+				80B537DB1ED4C2760071BCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B537DC1ED4C2760071BCEA /* Build configuration list for PBXNativeTarget "DazzlePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B537DD1ED4C2760071BCEA /* Debug */,
+				80B537DE1ED4C2760071BCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B537DF1ED4C2760071BCEA /* Build configuration list for PBXNativeTarget "DazzlePanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B537E01ED4C2760071BCEA /* Debug */,
+				80B537E11ED4C2760071BCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B537E21ED4C2760071BCEA /* Build configuration list for PBXNativeTarget "DazzlePanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B537E31ED4C2760071BCEA /* Debug */,
+				80B537E41ED4C2760071BCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80B537AC1ED4C2760071BCEA /* Project object */;
+}

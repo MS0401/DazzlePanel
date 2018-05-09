@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AAViewAnimator" "$PODS_CONFIGURATION_BUILD_DIR/CLWeeklyCalendarView" "$PODS_CONFIGURATION_BUILD_DIR/PopupController" "$PODS_CONFIGURATION_BUILD_DIR/RDVKeyboardAvoiding" "$PODS_CONFIGURATION_BUILD_DIR/TPKeyboardAvoiding" "$PODS_CONFIGURATION_BUILD_DIR/WYPopoverController" "${PODS_ROOT}/GoogleMaps/Base/Frameworks" "${PODS_ROOT}/GoogleMaps/Maps/Frameworks" "${PODS_ROOT}/GooglePlaces/Frameworks" "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GoogleMaps" "${PODS_ROOT}/Headers/Public/GooglePlaces" "${PODS_ROOT}/Headers/Public/Mapbox-iOS-SDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AAViewAnimator/AAViewAnimator.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/CLWeeklyCalendarView/CLWeeklyCalendarView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/PopupController/PopupController.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/RDVKeyboardAvoiding/RDVKeyboardAvoiding.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/TPKeyboardAvoiding/TPKeyboardAvoiding.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/WYPopoverController/WYPopoverController.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GoogleMaps" -isystem "${PODS_ROOT}/Headers/Public/GooglePlaces" -isystem "${PODS_ROOT}/Headers/Public/Mapbox-iOS-SDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "AAViewAnimator" -framework "Accelerate" -framework "CLWeeklyCalendarView" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreText" -framework "GLKit" -framework "GoogleMaps" -framework "GoogleMapsBase" -framework "GoogleMapsCore" -framework "GooglePlaces" -framework "ImageIO" -framework "Mapbox" -framework "OpenGLES" -framework "PopupController" -framework "QuartzCore" -framework "RDVKeyboardAvoiding" -framework "SystemConfiguration" -framework "TPKeyboardAvoiding" -framework "UIKit" -framework "WYPopoverController"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

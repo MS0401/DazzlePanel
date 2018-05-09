@@ -1,0 +1,6 @@
+framework module Pods_DazzlePanelUITests {
+  umbrella header "Pods-DazzlePanelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

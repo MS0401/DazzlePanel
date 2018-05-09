@@ -1,0 +1,2025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CBC5AFC9BC5EE14CCEEDD331112FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		043D71EC4078F465AF281E6C9EB7732C /* AAViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D95F560C91E9AAB3EE527C275EA6C307 /* AAViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07BDE9E48E1F22FCFDE505B1539705A5 /* WYPopoverController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A823FD35301FB91F68EB61CAE04DFA /* WYPopoverController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF702184443CF90E953A2458A86E24A /* NSDate+CL.h in Headers */ = {isa = PBXBuildFile; fileRef = DA45B29F26CBF198BE474A9AC62A9DED /* NSDate+CL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17BC89AE2B1BE56F999E52DDED1A78B0 /* DayTitleLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4C87D6EEA01BD2CB62FF18E23F4764 /* DayTitleLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		195C4D9C4746B2B2D110C4619DED04BB /* WYPopoverController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C085D7CE4CF91A88E0B0EC426967EB83 /* WYPopoverController-dummy.m */; };
+		1A4C8C01E2D3B01D56AEF5CA0638FD4D /* AAViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A62A43E2369C82B4108266CD40ECC04 /* AAViewAnimator.swift */; };
+		1DF970A3EBEDF50C82BA445DB9261FBD /* RDVKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C93183B73317DC5C1D03DA4ECC1A151C /* RDVKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		206E4DB112E358C4860759C885B0E321 /* UIColor+CL.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CAF82E71708CBF3C275B6CBDB22580 /* UIColor+CL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290C9017908396DD2A89BEFC9A097901 /* AAViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 978C6EFFD2098511F7C085C60CAFDD00 /* AAViewAnimator-dummy.m */; };
+		29B492D08E49C1A3902072F32BBB1FE3 /* DailyCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBBA9FD51D8468475AC995EB2D642C7 /* DailyCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3044CD0EB7CC9D06125B7B16647D464E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		31B8715F046F5185B4F1402F0FF86B94 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D63C87F8658E3ABC42192FC6CA0C52A /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		37C344C9A117AD5AC33700676B9BE7C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		3E1995D94FD0A80C98C4AA0243354EC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		42852C15C56E54AA6F87163844413C8E /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D667737D8625203DD9825B740C4169 /* TPKeyboardAvoiding-dummy.m */; };
+		4479AB7AF1328AAEEF4C32E85A1A9C9A /* CLWeeklyCalendarView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D36A5A8EDF0E759DD0F24D975C5C0E /* CLWeeklyCalendarView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46AA6B59E70F886D6B6A4B64772676A2 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 997D67A42204C86B85164F7BCF00AB14 /* WYPopoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55965D996B18E616858B6B9758B3C1F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		5679D9379657B430426BE866A09B71BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		59844A0C6E2B3AB30303B13072704195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		5D5884A1C63175C087D8D3D83708ED70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		631E4E5569BBA07A1CECD38061BFD075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		633DBB84787947AEE81FE9F4B696F6F3 /* CLWeeklyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5986826F76A40B8B4920AD65B96182 /* CLWeeklyCalendarView.m */; };
+		64338531B0166E8E719262C8CD3E2DB2 /* WYStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D4BB483C820F24BF1D24A46CD5D191 /* WYStoryboardPopoverSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64562F070A3D64519003D487838A5FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		681D5B10783F44F1F6257539F007A9D6 /* RDVKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7DC2B19680A5D24CD3A14946691CF2 /* RDVKeyboardAvoiding-dummy.m */; };
+		6B07195E5D5A924A86FA335D773B8D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		6DE57982E532A7D1B5100082E943A7F5 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A763F3F2F9962A8D59E90BDA7E75E990 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8E4E24F9113CB78402A53893FBD038 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF3FE66D79BE9136F3CC17BF26B47E2 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7097AAE16A5720A44661552127733081 /* DailyCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC04CCE3F211DAE20907750261F1ED /* DailyCalendarView.m */; };
+		734B1D6DE0DE3F260668FCEFD1828BD9 /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C76E488E21B06792A8719EE71CCEF6BF /* WYStoryboardPopoverSegue.m */; };
+		739CA70B54733B199CACC9DFA08051B3 /* TPKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C0AC958F5B49B0F171BDF2873C9DEA /* TPKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77975E71D544EF386DF82CD1564461EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		77DB149E5DD8EC03E77853E696247AFC /* PopupController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC92E0C4FA506A6ED8BF38E8FB73FA2B /* PopupController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789C5854C03B218AFBCAD2011CA3B1EC /* Pods-DazzlePanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2EC3789708B7DE38EB1335AC8425B1B /* Pods-DazzlePanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A231BDF7C152F7F80C7399222D68293 /* Pods-DazzlePanelUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 904E40E837540DECE5048A731356406D /* Pods-DazzlePanelUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B87A75194D7669132B464E2B7981FE /* DayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A862828B774409D479807DC653B0CAC4 /* DayTitleLabel.m */; };
+		99CD65CBA6F0B58B74B428F744BB06BB /* RDVKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66AEC977DBBA319451370F77D26D0F59 /* RDVKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE54F61C91CB3BBA481857D21B09A44 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E518A31C40D4148F9643D0FA41133E7 /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9FB25FFCE692497B421D6CDC1D4859A1 /* NSDate+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC6DF78F4A08DEDEC7AE44AA2F0BE4 /* NSDate+CL.m */; };
+		A61B876BB829B5E5D98FEC33E0DAC7D5 /* UIColor+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB71F684B9A1DE7F754DB01015F9FAA /* UIColor+CL.m */; };
+		AFDD68E42275A51D26AC6C30FA45666C /* Pods-DazzlePanelUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9715F02189DAC694718C2B3C9C2B9FE /* Pods-DazzlePanelUITests-dummy.m */; };
+		B17DE8D7189CC515DEE72F4672E97A77 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 254D73D3D503B993761E9FFE318B4EBF /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5BEF50B49875C40409412A8C2F1BCD2 /* CLWeeklyCalendarView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB776AFB8F187B1E64895BB1235D0F6 /* CLWeeklyCalendarView-dummy.m */; };
+		B9A67AC702C58307842134D9356C2BEF /* Pods-DazzlePanel-DazzlePanelTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 697FBCE9E041AE3F704CDBC8BF7EA85F /* Pods-DazzlePanel-DazzlePanelTests-dummy.m */; };
+		BB92C5C8862C2587240251FA74021E8C /* Pods-DazzlePanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06A65952684B06C9FA4765C7ECB282E /* Pods-DazzlePanel-dummy.m */; };
+		BCD7CE3359E946BD843F11BD83F566C9 /* CLWeeklyCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECF732F39FCCC01D495268A0A593EFA /* CLWeeklyCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8D2DF3D3021C37E5945514AF0B3D6E /* NSDictionary+CL.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C9E48C876A2061EA1A046BED8E33DC /* NSDictionary+CL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE739C7EB4ACC41C8A15EA60D336095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		C3387A11AD62A0087E4D9A4B2855AC32 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B674FAA618FE4D91E7BFE886B8D2BA /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35F4582EF6AC1296A822976890E314A /* AAViewAnimator+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B80C3A915DCA725B9CF4D3C3120263 /* AAViewAnimator+UIKit.swift */; };
+		CB86E41CEEC4ED0A7B51FAC32D92D9EB /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6D41BCC2D66C03D431F5514F01E2E /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1CD90D041534DD931C6119DC32A7CEA /* NSDictionary+CL.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A552365F2D2C0D5ED424D8BD8B4CA /* NSDictionary+CL.m */; };
+		DBC3D131C7DF3A33A8956483A2B64DEF /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB1CA590161C02E1889366C7EB3F1D9 /* PopupController.swift */; };
+		DE635D44F961417CA8448C7122FE4996 /* RDVKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2721A690810DA4D74AB81AA38E28AA2 /* RDVKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E61F0E5867ACB4CB9B9C1B45EB2A892C /* PopupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA018644FBB2D10FD51B61035BA1B8 /* PopupController-dummy.m */; };
+		E73FBB18A122C5C29F590969D3A279DF /* AAViewAnimator+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737E19EC81E57EA55E99C3245D72FBEF /* AAViewAnimator+Helper.swift */; };
+		EC040F90FF17AC5667B7717EA75C009F /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB95D70E01B7C5D9D5CD861C5DAB87E /* WYPopoverController.m */; };
+		ECBB10A09AE22B026115DDF336C48C49 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51276F71ADBF4B84BE4050462C8FA7E2 /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F248A20E3C66E3FDCE4A84A93212A48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		F620F67C540861FE191779DD54B7A20D /* Pods-DazzlePanel-DazzlePanelTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2721B637B9371CB45C7315754E9BB41B /* Pods-DazzlePanel-DazzlePanelTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C2F62148FDBF3A6D38C379E7A7EE743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CAB13762206F301F7B3B3B32BFB5E4;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+		245D2585DBD4D84B5AECF44946350FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3111968CDB3870FB90C9EFAF50CCB87A;
+			remoteInfo = CLWeeklyCalendarView;
+		};
+		25022AAD5C8F03E05EC94F717BB1C32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3111968CDB3870FB90C9EFAF50CCB87A;
+			remoteInfo = CLWeeklyCalendarView;
+		};
+		43DEF9BDE8D0277DF18B5CEC553DD847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A619FD7EA577D39D0220E5B6CE7D64F3;
+			remoteInfo = RDVKeyboardAvoiding;
+		};
+		4756D3C508FF26C72C145D276D4F7882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A619FD7EA577D39D0220E5B6CE7D64F3;
+			remoteInfo = RDVKeyboardAvoiding;
+		};
+		7083A8A0079E0CE7449B1A4FB92B4F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2E5B23CC644694BC05CC47B61B1321;
+			remoteInfo = WYPopoverController;
+		};
+		7532D88C8114871036CA923E67D4733E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E0F91D772EC76EC513D80CAEC3795E;
+			remoteInfo = AAViewAnimator;
+		};
+		7DF08DC5BA04FF2C123C9FB9D1932782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A17D7E076E16AEB326A9DE4EA06029;
+			remoteInfo = PopupController;
+		};
+		9F8310158F28E1834059BE763680A4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2E5B23CC644694BC05CC47B61B1321;
+			remoteInfo = WYPopoverController;
+		};
+		C873003993CA9264FA2D4DD5D218857A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89E0F91D772EC76EC513D80CAEC3795E;
+			remoteInfo = AAViewAnimator;
+		};
+		D751B5860EC4E0F12F659BF43BC11835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8CAB13762206F301F7B3B3B32BFB5E4;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+		FDE39FCD94A6F452A73196D2ADD06DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A17D7E076E16AEB326A9DE4EA06029;
+			remoteInfo = PopupController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00130742B45C277F3182CE60116DB648 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0095BFC694A4D6F7EC16D35E4297273E /* Pods_DazzlePanelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DazzlePanelUITests.framework; path = "Pods-DazzlePanelUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D6721E8E19984245CD4F7715D6E28 /* TPKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPKeyboardAvoiding.framework; path = TPKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0471DDFB755463ABD66DF0DF5529D0AF /* Pods-DazzlePanel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DazzlePanel-resources.sh"; sourceTree = "<group>"; };
+		05489F309B898B118637737DF6163038 /* AAViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAViewAnimator-prefix.pch"; sourceTree = "<group>"; };
+		062467EE797A450FF4C2C47EC82B4D2D /* Pods_DazzlePanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DazzlePanel.framework; path = "Pods-DazzlePanel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A823FD35301FB91F68EB61CAE04DFA /* WYPopoverController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPopoverController-umbrella.h"; sourceTree = "<group>"; };
+		07CC04CCE3F211DAE20907750261F1ED /* DailyCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DailyCalendarView.m; path = CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/DailyCalendarView.m; sourceTree = "<group>"; };
+		0A8F62FE58E51A044828ABEC75B41FB3 /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		0ECF732F39FCCC01D495268A0A593EFA /* CLWeeklyCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLWeeklyCalendarView.h; path = CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/CLWeeklyCalendarView.h; sourceTree = "<group>"; };
+		0FB71F684B9A1DE7F754DB01015F9FAA /* UIColor+CL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CL.m"; path = "CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/Misc/UIColor+CL.m"; sourceTree = "<group>"; };
+		0FD16A3D6535CA1614C36440AB1D1137 /* CLWeeklyCalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLWeeklyCalendarView-prefix.pch"; sourceTree = "<group>"; };
+		112A552365F2D2C0D5ED424D8BD8B4CA /* NSDictionary+CL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+CL.m"; path = "CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/Misc/NSDictionary+CL.m"; sourceTree = "<group>"; };
+		14C9E48C876A2061EA1A046BED8E33DC /* NSDictionary+CL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+CL.h"; path = "CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/Misc/NSDictionary+CL.h"; sourceTree = "<group>"; };
+		16CAF82E71708CBF3C275B6CBDB22580 /* UIColor+CL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CL.h"; path = "CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/Misc/UIColor+CL.h"; sourceTree = "<group>"; };
+		18077CCE63E52BA38ADFD7A59C92AB8E /* Pods-DazzlePanelUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DazzlePanelUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BE1DDC7E0D735611F1F8D9F221BB64B /* RDVKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDVKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		1D4C87D6EEA01BD2CB62FF18E23F4764 /* DayTitleLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DayTitleLabel.h; path = CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/DayTitleLabel.h; sourceTree = "<group>"; };
+		22C981C1D5EB3EBD959AA186A0F51D54 /* PopupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupController-prefix.pch"; sourceTree = "<group>"; };
+		254D73D3D503B993761E9FFE318B4EBF /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		26D14678D71CA5175442129C17E00218 /* RDVKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDVKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		2721B637B9371CB45C7315754E9BB41B /* Pods-DazzlePanel-DazzlePanelTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DazzlePanel-DazzlePanelTests-umbrella.h"; sourceTree = "<group>"; };
+		2A48ABB70E52D8B592E8E477F476C3A8 /* Pods-DazzlePanel-DazzlePanelTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DazzlePanel-DazzlePanelTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BBBD7B713B64DA3B39BBF359570E872 /* CLWeeklyCalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CLWeeklyCalendarView.modulemap; sourceTree = "<group>"; };
+		2CB1CA590161C02E1889366C7EB3F1D9 /* PopupController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupController.swift; path = Classes/PopupController.swift; sourceTree = "<group>"; };
+		2F050D6D62FF2F688B330E079CBE3282 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9D728AD7ACCD8AFAB7857E27577C18 /* Pods-DazzlePanelUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DazzlePanelUITests-resources.sh"; sourceTree = "<group>"; };
+		311BAC1AB258EF2C1BE8007E56A0D765 /* Pods-DazzlePanelUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DazzlePanelUITests.modulemap"; sourceTree = "<group>"; };
+		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		34D667737D8625203DD9825B740C4169 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		3AB95D70E01B7C5D9D5CD861C5DAB87E /* WYPopoverController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYPopoverController.m; path = WYPopoverController/WYPopoverController.m; sourceTree = "<group>"; };
+		3E7DC2B19680A5D24CD3A14946691CF2 /* RDVKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RDVKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		421526318237BEE16A1F64F9E2C0A518 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		43B7402B1F21D6E8D667AD4BF529B3D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E3C4E2523BD0BE92789638DA83F679 /* WYPopoverController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPopoverController.xcconfig; sourceTree = "<group>"; };
+		4763762A47AA220209AD7ADD31C5D881 /* Pods-DazzlePanel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DazzlePanel-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FD6D41BCC2D66C03D431F5514F01E2E /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		51276F71ADBF4B84BE4050462C8FA7E2 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		54A35AB99166B435A99A4A69FEA5A105 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3CC77A7D905E76577C84F762FE3474 /* WYPopoverController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPopoverController-prefix.pch"; sourceTree = "<group>"; };
+		5ABBB58FC0F13BA3281385394C815BC2 /* AAViewAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAViewAnimator.xcconfig; sourceTree = "<group>"; };
+		5CAEB5E578AA64B0009C196D485ED914 /* Pods-DazzlePanelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DazzlePanelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D63C87F8658E3ABC42192FC6CA0C52A /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		5E518A31C40D4148F9643D0FA41133E7 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		5FA9B16F52E2835CB6433AE90EBA9B32 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		61B6AE389F734826C1D7FD602F56D4BE /* AAViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AAViewAnimator.framework; path = AAViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669BFC44AB17AC24B30DCDBBBCDDC5F9 /* TPKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TPKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		66AEC977DBBA319451370F77D26D0F59 /* RDVKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVKeyboardAvoidingScrollView.h; path = RDVKeyboardAvoiding/RDVKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		67899D0820ABE991CF853C127DEAB2EF /* Pods-DazzlePanel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DazzlePanel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68DCDE52F354A6C035D72142C7E85E2D /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		697FBCE9E041AE3F704CDBC8BF7EA85F /* Pods-DazzlePanel-DazzlePanelTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DazzlePanel-DazzlePanelTests-dummy.m"; sourceTree = "<group>"; };
+		6A62A43E2369C82B4108266CD40ECC04 /* AAViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AAViewAnimator.swift; path = AAViewAnimator/Classes/AAViewAnimator.swift; sourceTree = "<group>"; };
+		737E19EC81E57EA55E99C3245D72FBEF /* AAViewAnimator+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AAViewAnimator+Helper.swift"; path = "AAViewAnimator/Classes/AAViewAnimator+Helper.swift"; sourceTree = "<group>"; };
+		74C0AC958F5B49B0F171BDF2873C9DEA /* TPKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		7AAEAE8AB1AAF863665C582B9E7AA878 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817635B8DFD22A9739540B64B31C2CF7 /* RDVKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RDVKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		821248E6E1273CB8E899CB45EC54ECB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8272B471A926E7C20CF3A660CEF8D296 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FAD98DAB1C18204336E470CF7BDF45 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		866F42EFCF05FFCAAE709E721D7F00CA /* Pods-DazzlePanel-DazzlePanelTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DazzlePanel-DazzlePanelTests.modulemap"; sourceTree = "<group>"; };
+		8DD1721E9A6C30B47AFED194939527C0 /* PopupController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PopupController.modulemap; sourceTree = "<group>"; };
+		904E40E837540DECE5048A731356406D /* Pods-DazzlePanelUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DazzlePanelUITests-umbrella.h"; sourceTree = "<group>"; };
+		92FAFA0D0433093FD9CB19F13958B7D0 /* CLWeeklyCalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLWeeklyCalendarView.framework; path = CLWeeklyCalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		978C6EFFD2098511F7C085C60CAFDD00 /* AAViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAViewAnimator-dummy.m"; sourceTree = "<group>"; };
+		988C9601F19D2278AEC6F14D69ED133D /* PopupController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupController.framework; path = PopupController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997D67A42204C86B85164F7BCF00AB14 /* WYPopoverController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPopoverController.h; path = WYPopoverController/WYPopoverController.h; sourceTree = "<group>"; };
+		99AAA481F7A5180CA2C30609442574CB /* WYPopoverController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WYPopoverController.modulemap; sourceTree = "<group>"; };
+		9C99E116B404990B96E2A8F64C310856 /* Pods-DazzlePanel-DazzlePanelTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DazzlePanel-DazzlePanelTests-resources.sh"; sourceTree = "<group>"; };
+		9E5986826F76A40B8B4920AD65B96182 /* CLWeeklyCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLWeeklyCalendarView.m; path = CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/CLWeeklyCalendarView.m; sourceTree = "<group>"; };
+		9FDAB55FDC530FB53DC477A15D9DDBB7 /* RDVKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RDVKeyboardAvoiding.framework; path = RDVKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DA018644FBB2D10FD51B61035BA1B8 /* PopupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupController-dummy.m"; sourceTree = "<group>"; };
+		A47F23BBDFA2A793FF36E65731A35E2A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		A5D4BB483C820F24BF1D24A46CD5D191 /* WYStoryboardPopoverSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYStoryboardPopoverSegue.h; path = WYPopoverController/WYStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		A763F3F2F9962A8D59E90BDA7E75E990 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		A862828B774409D479807DC653B0CAC4 /* DayTitleLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DayTitleLabel.m; path = CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/DayTitleLabel.m; sourceTree = "<group>"; };
+		A9DFCE88476831CEFF41D79784BB88E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB64F1BB536661A5F2DF10C29AEA2F3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9B866E2737BDC009B00488CCA5810B /* Pods-DazzlePanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DazzlePanel.debug.xcconfig"; sourceTree = "<group>"; };
+		AC92E0C4FA506A6ED8BF38E8FB73FA2B /* PopupController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupController-umbrella.h"; sourceTree = "<group>"; };
+		ADB5D02C61FF839ED27A2D80B36CFBD3 /* Pods-DazzlePanelUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DazzlePanelUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3FF6903E67E60F482653164D3D66E3E /* CLWeeklyCalendarView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLWeeklyCalendarView.xcconfig; sourceTree = "<group>"; };
+		B8E3BB3D6FC8A34C122308140F965DBD /* Pods-DazzlePanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DazzlePanel.release.xcconfig"; sourceTree = "<group>"; };
+		B94BF104FBA3AD335FD5A7853115592F /* WYPopoverController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYPopoverController.framework; path = WYPopoverController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9715F02189DAC694718C2B3C9C2B9FE /* Pods-DazzlePanelUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DazzlePanelUITests-dummy.m"; sourceTree = "<group>"; };
+		B9D36A5A8EDF0E759DD0F24D975C5C0E /* CLWeeklyCalendarView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLWeeklyCalendarView-umbrella.h"; sourceTree = "<group>"; };
+		BE9DAB9F9CDD916F9C9092FA217DA3B4 /* Pods-DazzlePanelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DazzlePanelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF57BE402FFE9CA07E0D05C4D7E1DA2A /* Pods-DazzlePanel-DazzlePanelTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DazzlePanel-DazzlePanelTests-frameworks.sh"; sourceTree = "<group>"; };
+		C06A65952684B06C9FA4765C7ECB282E /* Pods-DazzlePanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DazzlePanel-dummy.m"; sourceTree = "<group>"; };
+		C085D7CE4CF91A88E0B0EC426967EB83 /* WYPopoverController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYPopoverController-dummy.m"; sourceTree = "<group>"; };
+		C2EC3789708B7DE38EB1335AC8425B1B /* Pods-DazzlePanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DazzlePanel-umbrella.h"; sourceTree = "<group>"; };
+		C5B674FAA618FE4D91E7BFE886B8D2BA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		C76E488E21B06792A8719EE71CCEF6BF /* WYStoryboardPopoverSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYStoryboardPopoverSegue.m; path = WYPopoverController/WYStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		C93183B73317DC5C1D03DA4ECC1A151C /* RDVKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDVKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		C996D643243D5DC62CF64B1718EB7DB8 /* Pods-DazzlePanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DazzlePanel.modulemap"; sourceTree = "<group>"; };
+		CBBBA9FD51D8468475AC995EB2D642C7 /* DailyCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DailyCalendarView.h; path = CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/DailyCalendarView.h; sourceTree = "<group>"; };
+		CC479AE0BAEAE28E5322D55096520025 /* Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF3FE66D79BE9136F3CC17BF26B47E2 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		D26133E8984217482F62D65DDE056E34 /* Pods-DazzlePanel-DazzlePanelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DazzlePanel-DazzlePanelTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6AF60061D29E7DF35F92C3642DAE81F /* Pods-DazzlePanel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DazzlePanel-frameworks.sh"; sourceTree = "<group>"; };
+		D95F560C91E9AAB3EE527C275EA6C307 /* AAViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		DA45B29F26CBF198BE474A9AC62A9DED /* NSDate+CL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+CL.h"; path = "CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/Misc/NSDate+CL.h"; sourceTree = "<group>"; };
+		DFF87DEEA4D8687A948AD38E74D46E2F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		E16F943599FE75F263D1F889F9628C2E /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		E2721A690810DA4D74AB81AA38E28AA2 /* RDVKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVKeyboardAvoidingScrollView.m; path = RDVKeyboardAvoiding/RDVKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		E3B80C3A915DCA725B9CF4D3C3120263 /* AAViewAnimator+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AAViewAnimator+UIKit.swift"; path = "AAViewAnimator/Classes/AAViewAnimator+UIKit.swift"; sourceTree = "<group>"; };
+		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E7D105B319D7304AA386687EBB4398D7 /* Pods_DazzlePanel_DazzlePanelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DazzlePanel_DazzlePanelTests.framework; path = "Pods-DazzlePanel-DazzlePanelTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E804E1736E67C256245F2D7DD08EC766 /* AAViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AAViewAnimator.modulemap; sourceTree = "<group>"; };
+		E9E84293C117A78C8EAB0585EF258556 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		EB6330996F987CFAF18B0DEA099A3B5D /* PopupController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupController.xcconfig; sourceTree = "<group>"; };
+		EBB776AFB8F187B1E64895BB1235D0F6 /* CLWeeklyCalendarView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLWeeklyCalendarView-dummy.m"; sourceTree = "<group>"; };
+		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED7C07037A23DF8B78CEB6F825A991C2 /* Pods-DazzlePanelUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DazzlePanelUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FAAC6DF78F4A08DEDEC7AE44AA2F0BE4 /* NSDate+CL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CL.m"; path = "CLWeeklyCalendarView/CLWeeklyCalendarViewSourceCode/Misc/NSDate+CL.m"; sourceTree = "<group>"; };
+		FABC787EFC61A018600665FD0D4721F1 /* Pods-DazzlePanel-DazzlePanelTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DazzlePanel-DazzlePanelTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0528345A9144D269E55DB1C9F5BCEE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E4E5569BBA07A1CECD38061BFD075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F5AE19C218FA424995370A85873B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5679D9379657B430426BE866A09B71BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1AAFA14B92BD5EBEA4213C770E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77975E71D544EF386DF82CD1564461EF /* CoreGraphics.framework in Frameworks */,
+				5D5884A1C63175C087D8D3D83708ED70 /* Foundation.framework in Frameworks */,
+				F248A20E3C66E3FDCE4A84A93212A48E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0FD56DDE867CD6CE58BD20851C940A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64562F070A3D64519003D487838A5FB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8289557FA4C04A63938D1010C8298E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3044CD0EB7CC9D06125B7B16647D464E /* CoreGraphics.framework in Frameworks */,
+				55965D996B18E616858B6B9758B3C1F3 /* Foundation.framework in Frameworks */,
+				37C344C9A117AD5AC33700676B9BE7C3 /* QuartzCore.framework in Frameworks */,
+				3E1995D94FD0A80C98C4AA0243354EC9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C7F7FB5EE2BFF2A697C9BE13A634A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B07195E5D5A924A86FA335D773B8D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4B9CC2979305872B556B337E3B51AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CBC5AFC9BC5EE14CCEEDD331112FDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75B032B437C4DC7B3327E769ECA9374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE739C7EB4ACC41C8A15EA60D336095 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63DA4C8390E8BE976F7B5ECE3117695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59844A0C6E2B3AB30303B13072704195 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023A713505BA621ADA8A705BAC2AFDC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF87DEEA4D8687A948AD38E74D46E2F /* GoogleMaps.framework */,
+				A47F23BBDFA2A793FF36E65731A35E2A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		044CF28C8F432D711CBC43BA24898A93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FA9B16F52E2835CB6433AE90EBA9B32 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		102DB1F044740B53FA659B3ACCB4FC6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9E84293C117A78C8EAB0585EF258556 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		144084D6C3E5630A804C375B2BF52D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B6AE389F734826C1D7FD602F56D4BE /* AAViewAnimator.framework */,
+				92FAFA0D0433093FD9CB19F13958B7D0 /* CLWeeklyCalendarView.framework */,
+				062467EE797A450FF4C2C47EC82B4D2D /* Pods_DazzlePanel.framework */,
+				E7D105B319D7304AA386687EBB4398D7 /* Pods_DazzlePanel_DazzlePanelTests.framework */,
+				0095BFC694A4D6F7EC16D35E4297273E /* Pods_DazzlePanelUITests.framework */,
+				988C9601F19D2278AEC6F14D69ED133D /* PopupController.framework */,
+				9FDAB55FDC530FB53DC477A15D9DDBB7 /* RDVKeyboardAvoiding.framework */,
+				044D6721E8E19984245CD4F7715D6E28 /* TPKeyboardAvoiding.framework */,
+				B94BF104FBA3AD335FD5A7853115592F /* WYPopoverController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		186D7AD6C7B97CCA40C2949DAAA0AB46 /* Pods-DazzlePanel-DazzlePanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEAE8AB1AAF863665C582B9E7AA878 /* Info.plist */,
+				866F42EFCF05FFCAAE709E721D7F00CA /* Pods-DazzlePanel-DazzlePanelTests.modulemap */,
+				2A48ABB70E52D8B592E8E477F476C3A8 /* Pods-DazzlePanel-DazzlePanelTests-acknowledgements.markdown */,
+				FABC787EFC61A018600665FD0D4721F1 /* Pods-DazzlePanel-DazzlePanelTests-acknowledgements.plist */,
+				697FBCE9E041AE3F704CDBC8BF7EA85F /* Pods-DazzlePanel-DazzlePanelTests-dummy.m */,
+				BF57BE402FFE9CA07E0D05C4D7E1DA2A /* Pods-DazzlePanel-DazzlePanelTests-frameworks.sh */,
+				9C99E116B404990B96E2A8F64C310856 /* Pods-DazzlePanel-DazzlePanelTests-resources.sh */,
+				2721B637B9371CB45C7315754E9BB41B /* Pods-DazzlePanel-DazzlePanelTests-umbrella.h */,
+				CC479AE0BAEAE28E5322D55096520025 /* Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig */,
+				D26133E8984217482F62D65DDE056E34 /* Pods-DazzlePanel-DazzlePanelTests.release.xcconfig */,
+			);
+			name = "Pods-DazzlePanel-DazzlePanelTests";
+			path = "Target Support Files/Pods-DazzlePanel-DazzlePanelTests";
+			sourceTree = "<group>";
+		};
+		23095ABC951E3B3EA1AF6B11861A1497 /* AAViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				6A62A43E2369C82B4108266CD40ECC04 /* AAViewAnimator.swift */,
+				737E19EC81E57EA55E99C3245D72FBEF /* AAViewAnimator+Helper.swift */,
+				E3B80C3A915DCA725B9CF4D3C3120263 /* AAViewAnimator+UIKit.swift */,
+				CC4FD270EED3DFAC6843F5CEB5D1470C /* Support Files */,
+			);
+			name = AAViewAnimator;
+			path = AAViewAnimator;
+			sourceTree = "<group>";
+		};
+		239BE65D3A700FC2724AE108999B8711 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E46BF22C7558653BEB2B1B78121029E0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2C7EEA7A386E10847BF2286ADAFEA00B /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				023A713505BA621ADA8A705BAC2AFDC7 /* Frameworks */,
+				044CF28C8F432D711CBC43BA24898A93 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		31B036921FEE5E989DCCEBB8CE707DD5 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				F46774A1BFA519D65515DC3E15987BC5 /* Frameworks */,
+				102DB1F044740B53FA659B3ACCB4FC6A /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		35927BC5234934DB0C59B0F84E1C6171 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23095ABC951E3B3EA1AF6B11861A1497 /* AAViewAnimator */,
+				8C1A784DC98CBDEB947A4A977E2D7ED4 /* CLWeeklyCalendarView */,
+				3B7EDE0ECA579DD1AAA315E37959D052 /* GoogleMaps */,
+				31B036921FEE5E989DCCEBB8CE707DD5 /* GooglePlaces */,
+				F1598A8EBB70770454EFCC01117DDE2A /* Mapbox-iOS-SDK */,
+				3F74D94C098774D113EA7E082773966E /* PopupController */,
+				745C850154548E979F9ABC9FA2AE155D /* RDVKeyboardAvoiding */,
+				CE46A80A2BAEA5FD8CD046774826F935 /* TPKeyboardAvoiding */,
+				B6C5430D1182A36674DE342DE5BD2E31 /* WYPopoverController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B7EDE0ECA579DD1AAA315E37959D052 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				239BE65D3A700FC2724AE108999B8711 /* Base */,
+				2C7EEA7A386E10847BF2286ADAFEA00B /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3F74D94C098774D113EA7E082773966E /* PopupController */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1CA590161C02E1889366C7EB3F1D9 /* PopupController.swift */,
+				6543109F5AAC4B66042FC09AF671D1A0 /* Support Files */,
+			);
+			name = PopupController;
+			path = PopupController;
+			sourceTree = "<group>";
+		};
+		4884D824D37F0744A392DEF1B7D1DD61 /* Pods-DazzlePanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00130742B45C277F3182CE60116DB648 /* Info.plist */,
+				311BAC1AB258EF2C1BE8007E56A0D765 /* Pods-DazzlePanelUITests.modulemap */,
+				18077CCE63E52BA38ADFD7A59C92AB8E /* Pods-DazzlePanelUITests-acknowledgements.markdown */,
+				ADB5D02C61FF839ED27A2D80B36CFBD3 /* Pods-DazzlePanelUITests-acknowledgements.plist */,
+				B9715F02189DAC694718C2B3C9C2B9FE /* Pods-DazzlePanelUITests-dummy.m */,
+				ED7C07037A23DF8B78CEB6F825A991C2 /* Pods-DazzlePanelUITests-frameworks.sh */,
+				2F9D728AD7ACCD8AFAB7857E27577C18 /* Pods-DazzlePanelUITests-resources.sh */,
+				904E40E837540DECE5048A731356406D /* Pods-DazzlePanelUITests-umbrella.h */,
+				BE9DAB9F9CDD916F9C9092FA217DA3B4 /* Pods-DazzlePanelUITests.debug.xcconfig */,
+				5CAEB5E578AA64B0009C196D485ED914 /* Pods-DazzlePanelUITests.release.xcconfig */,
+			);
+			name = "Pods-DazzlePanelUITests";
+			path = "Target Support Files/Pods-DazzlePanelUITests";
+			sourceTree = "<group>";
+		};
+		646F042F344C3D2E49154DDBA40EE319 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBBD7B713B64DA3B39BBF359570E872 /* CLWeeklyCalendarView.modulemap */,
+				B3FF6903E67E60F482653164D3D66E3E /* CLWeeklyCalendarView.xcconfig */,
+				EBB776AFB8F187B1E64895BB1235D0F6 /* CLWeeklyCalendarView-dummy.m */,
+				0FD16A3D6535CA1614C36440AB1D1137 /* CLWeeklyCalendarView-prefix.pch */,
+				B9D36A5A8EDF0E759DD0F24D975C5C0E /* CLWeeklyCalendarView-umbrella.h */,
+				A9DFCE88476831CEFF41D79784BB88E0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CLWeeklyCalendarView";
+			sourceTree = "<group>";
+		};
+		6543109F5AAC4B66042FC09AF671D1A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB64F1BB536661A5F2DF10C29AEA2F3E /* Info.plist */,
+				8DD1721E9A6C30B47AFED194939527C0 /* PopupController.modulemap */,
+				EB6330996F987CFAF18B0DEA099A3B5D /* PopupController.xcconfig */,
+				A2DA018644FBB2D10FD51B61035BA1B8 /* PopupController-dummy.m */,
+				22C981C1D5EB3EBD959AA186A0F51D54 /* PopupController-prefix.pch */,
+				AC92E0C4FA506A6ED8BF38E8FB73FA2B /* PopupController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupController";
+			sourceTree = "<group>";
+		};
+		73719C5DB5A1A0BADDF5CAD94590E54D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68DCDE52F354A6C035D72142C7E85E2D /* Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		745C850154548E979F9ABC9FA2AE155D /* RDVKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				66AEC977DBBA319451370F77D26D0F59 /* RDVKeyboardAvoidingScrollView.h */,
+				E2721A690810DA4D74AB81AA38E28AA2 /* RDVKeyboardAvoidingScrollView.m */,
+				7FC365B3DD250DC9FA51AA399020E444 /* Support Files */,
+			);
+			name = RDVKeyboardAvoiding;
+			path = RDVKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				35927BC5234934DB0C59B0F84E1C6171 /* Pods */,
+				144084D6C3E5630A804C375B2BF52D49 /* Products */,
+				CA2A4CFC71447639A3BB2872DE309353 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC365B3DD250DC9FA51AA399020E444 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A35AB99166B435A99A4A69FEA5A105 /* Info.plist */,
+				817635B8DFD22A9739540B64B31C2CF7 /* RDVKeyboardAvoiding.modulemap */,
+				26D14678D71CA5175442129C17E00218 /* RDVKeyboardAvoiding.xcconfig */,
+				3E7DC2B19680A5D24CD3A14946691CF2 /* RDVKeyboardAvoiding-dummy.m */,
+				1BE1DDC7E0D735611F1F8D9F221BB64B /* RDVKeyboardAvoiding-prefix.pch */,
+				C93183B73317DC5C1D03DA4ECC1A151C /* RDVKeyboardAvoiding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RDVKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		8C1A784DC98CBDEB947A4A977E2D7ED4 /* CLWeeklyCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				0ECF732F39FCCC01D495268A0A593EFA /* CLWeeklyCalendarView.h */,
+				9E5986826F76A40B8B4920AD65B96182 /* CLWeeklyCalendarView.m */,
+				CBBBA9FD51D8468475AC995EB2D642C7 /* DailyCalendarView.h */,
+				07CC04CCE3F211DAE20907750261F1ED /* DailyCalendarView.m */,
+				1D4C87D6EEA01BD2CB62FF18E23F4764 /* DayTitleLabel.h */,
+				A862828B774409D479807DC653B0CAC4 /* DayTitleLabel.m */,
+				DA45B29F26CBF198BE474A9AC62A9DED /* NSDate+CL.h */,
+				FAAC6DF78F4A08DEDEC7AE44AA2F0BE4 /* NSDate+CL.m */,
+				14C9E48C876A2061EA1A046BED8E33DC /* NSDictionary+CL.h */,
+				112A552365F2D2C0D5ED424D8BD8B4CA /* NSDictionary+CL.m */,
+				16CAF82E71708CBF3C275B6CBDB22580 /* UIColor+CL.h */,
+				0FB71F684B9A1DE7F754DB01015F9FAA /* UIColor+CL.m */,
+				646F042F344C3D2E49154DDBA40EE319 /* Support Files */,
+			);
+			name = CLWeeklyCalendarView;
+			path = CLWeeklyCalendarView;
+			sourceTree = "<group>";
+		};
+		8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */,
+				ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */,
+				E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */,
+				FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B6C5430D1182A36674DE342DE5BD2E31 /* WYPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				997D67A42204C86B85164F7BCF00AB14 /* WYPopoverController.h */,
+				3AB95D70E01B7C5D9D5CD861C5DAB87E /* WYPopoverController.m */,
+				A5D4BB483C820F24BF1D24A46CD5D191 /* WYStoryboardPopoverSegue.h */,
+				C76E488E21B06792A8719EE71CCEF6BF /* WYStoryboardPopoverSegue.m */,
+				CB6BA8B87A872E5347CFD29376DC5EAF /* Support Files */,
+			);
+			name = WYPopoverController;
+			path = WYPopoverController;
+			sourceTree = "<group>";
+		};
+		CA2A4CFC71447639A3BB2872DE309353 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6F961DFEA87D3DD99FD88228465B226 /* Pods-DazzlePanel */,
+				186D7AD6C7B97CCA40C2949DAAA0AB46 /* Pods-DazzlePanel-DazzlePanelTests */,
+				4884D824D37F0744A392DEF1B7D1DD61 /* Pods-DazzlePanelUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB6BA8B87A872E5347CFD29376DC5EAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8272B471A926E7C20CF3A660CEF8D296 /* Info.plist */,
+				99AAA481F7A5180CA2C30609442574CB /* WYPopoverController.modulemap */,
+				46E3C4E2523BD0BE92789638DA83F679 /* WYPopoverController.xcconfig */,
+				C085D7CE4CF91A88E0B0EC426967EB83 /* WYPopoverController-dummy.m */,
+				5A3CC77A7D905E76577C84F762FE3474 /* WYPopoverController-prefix.pch */,
+				06A823FD35301FB91F68EB61CAE04DFA /* WYPopoverController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WYPopoverController";
+			sourceTree = "<group>";
+		};
+		CC4FD270EED3DFAC6843F5CEB5D1470C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E804E1736E67C256245F2D7DD08EC766 /* AAViewAnimator.modulemap */,
+				5ABBB58FC0F13BA3281385394C815BC2 /* AAViewAnimator.xcconfig */,
+				978C6EFFD2098511F7C085C60CAFDD00 /* AAViewAnimator-dummy.m */,
+				05489F309B898B118637737DF6163038 /* AAViewAnimator-prefix.pch */,
+				D95F560C91E9AAB3EE527C275EA6C307 /* AAViewAnimator-umbrella.h */,
+				2F050D6D62FF2F688B330E079CBE3282 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AAViewAnimator";
+			sourceTree = "<group>";
+		};
+		CE46A80A2BAEA5FD8CD046774826F935 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				A763F3F2F9962A8D59E90BDA7E75E990 /* TPKeyboardAvoidingCollectionView.h */,
+				51276F71ADBF4B84BE4050462C8FA7E2 /* TPKeyboardAvoidingCollectionView.m */,
+				C5B674FAA618FE4D91E7BFE886B8D2BA /* TPKeyboardAvoidingScrollView.h */,
+				4FD6D41BCC2D66C03D431F5514F01E2E /* TPKeyboardAvoidingScrollView.m */,
+				CDF3FE66D79BE9136F3CC17BF26B47E2 /* TPKeyboardAvoidingTableView.h */,
+				5E518A31C40D4148F9643D0FA41133E7 /* TPKeyboardAvoidingTableView.m */,
+				254D73D3D503B993761E9FFE318B4EBF /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				5D63C87F8658E3ABC42192FC6CA0C52A /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				DEF11DA12E0D86AB9E94DB9B3C3921C5 /* Support Files */,
+			);
+			name = TPKeyboardAvoiding;
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		DEF11DA12E0D86AB9E94DB9B3C3921C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				821248E6E1273CB8E899CB45EC54ECB2 /* Info.plist */,
+				669BFC44AB17AC24B30DCDBBBCDDC5F9 /* TPKeyboardAvoiding.modulemap */,
+				E16F943599FE75F263D1F889F9628C2E /* TPKeyboardAvoiding.xcconfig */,
+				34D667737D8625203DD9825B740C4169 /* TPKeyboardAvoiding-dummy.m */,
+				0A8F62FE58E51A044828ABEC75B41FB3 /* TPKeyboardAvoiding-prefix.pch */,
+				74C0AC958F5B49B0F171BDF2873C9DEA /* TPKeyboardAvoiding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		E46BF22C7558653BEB2B1B78121029E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				421526318237BEE16A1F64F9E2C0A518 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F961DFEA87D3DD99FD88228465B226 /* Pods-DazzlePanel */ = {
+			isa = PBXGroup;
+			children = (
+				43B7402B1F21D6E8D667AD4BF529B3D6 /* Info.plist */,
+				C996D643243D5DC62CF64B1718EB7DB8 /* Pods-DazzlePanel.modulemap */,
+				67899D0820ABE991CF853C127DEAB2EF /* Pods-DazzlePanel-acknowledgements.markdown */,
+				4763762A47AA220209AD7ADD31C5D881 /* Pods-DazzlePanel-acknowledgements.plist */,
+				C06A65952684B06C9FA4765C7ECB282E /* Pods-DazzlePanel-dummy.m */,
+				D6AF60061D29E7DF35F92C3642DAE81F /* Pods-DazzlePanel-frameworks.sh */,
+				0471DDFB755463ABD66DF0DF5529D0AF /* Pods-DazzlePanel-resources.sh */,
+				C2EC3789708B7DE38EB1335AC8425B1B /* Pods-DazzlePanel-umbrella.h */,
+				AB9B866E2737BDC009B00488CCA5810B /* Pods-DazzlePanel.debug.xcconfig */,
+				B8E3BB3D6FC8A34C122308140F965DBD /* Pods-DazzlePanel.release.xcconfig */,
+			);
+			name = "Pods-DazzlePanel";
+			path = "Target Support Files/Pods-DazzlePanel";
+			sourceTree = "<group>";
+		};
+		F1598A8EBB70770454EFCC01117DDE2A /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				73719C5DB5A1A0BADDF5CAD94590E54D /* Frameworks */,
+			);
+			name = "Mapbox-iOS-SDK";
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		F46774A1BFA519D65515DC3E15987BC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FAD98DAB1C18204336E470CF7BDF45 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		040134B2636FF3548C977DBBC2C45348 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789C5854C03B218AFBCAD2011CA3B1EC /* Pods-DazzlePanel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2FD7977591C78C2B5A952B1CCAE598 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF970A3EBEDF50C82BA445DB9261FBD /* RDVKeyboardAvoiding-umbrella.h in Headers */,
+				99CD65CBA6F0B58B74B428F744BB06BB /* RDVKeyboardAvoidingScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBF1BD4150CD37EE63271BC9701F702 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BDE9E48E1F22FCFDE505B1539705A5 /* WYPopoverController-umbrella.h in Headers */,
+				46AA6B59E70F886D6B6A4B64772676A2 /* WYPopoverController.h in Headers */,
+				64338531B0166E8E719262C8CD3E2DB2 /* WYStoryboardPopoverSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D23AB0C18DFF30B5EF98FA42CAA5E0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F620F67C540861FE191779DD54B7A20D /* Pods-DazzlePanel-DazzlePanelTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C40F46888BCD498E8EACFAD50CB1D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739CA70B54733B199CACC9DFA08051B3 /* TPKeyboardAvoiding-umbrella.h in Headers */,
+				6DE57982E532A7D1B5100082E943A7F5 /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				C3387A11AD62A0087E4D9A4B2855AC32 /* TPKeyboardAvoidingScrollView.h in Headers */,
+				6E8E4E24F9113CB78402A53893FBD038 /* TPKeyboardAvoidingTableView.h in Headers */,
+				B17DE8D7189CC515DEE72F4672E97A77 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7381ABB08784321F1CB418F982957707 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4479AB7AF1328AAEEF4C32E85A1A9C9A /* CLWeeklyCalendarView-umbrella.h in Headers */,
+				BCD7CE3359E946BD843F11BD83F566C9 /* CLWeeklyCalendarView.h in Headers */,
+				29B492D08E49C1A3902072F32BBB1FE3 /* DailyCalendarView.h in Headers */,
+				17BC89AE2B1BE56F999E52DDED1A78B0 /* DayTitleLabel.h in Headers */,
+				0BF702184443CF90E953A2458A86E24A /* NSDate+CL.h in Headers */,
+				BE8D2DF3D3021C37E5945514AF0B3D6E /* NSDictionary+CL.h in Headers */,
+				206E4DB112E358C4860759C885B0E321 /* UIColor+CL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A786468711A5CC898E7002FF191B6953 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043D71EC4078F465AF281E6C9EB7732C /* AAViewAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0ED41685240E90314E20F868BAD600 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DB149E5DD8EC03E77853E696247AFC /* PopupController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77726DD3D9C6B27DB2EFB3CF5E1B033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A231BDF7C152F7F80C7399222D68293 /* Pods-DazzlePanelUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		206156BB04ABD035F8642E717F3364EE /* Pods-DazzlePanel-DazzlePanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BCB99711C0CD5DD29DB3A362C98B8A /* Build configuration list for PBXNativeTarget "Pods-DazzlePanel-DazzlePanelTests" */;
+			buildPhases = (
+				4DA701B7C4D252982BBD428603879B69 /* Sources */,
+				0F0FD56DDE867CD6CE58BD20851C940A /* Frameworks */,
+				1D23AB0C18DFF30B5EF98FA42CAA5E0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDAA2400993A9AC082E157003BB6519 /* PBXTargetDependency */,
+				723883F1B7C878E79B6D4B8E00B62D3D /* PBXTargetDependency */,
+				22FEBE358B94DD9477095365A8C1BE4E /* PBXTargetDependency */,
+				D97DFCB7B9CAFA11C151E134D365556B /* PBXTargetDependency */,
+				F373F4FB5B3AA868FB325F7C5F94C15A /* PBXTargetDependency */,
+				FB664F859FCBB460382D0A1560FE3CB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-DazzlePanel-DazzlePanelTests";
+			productName = "Pods-DazzlePanel-DazzlePanelTests";
+			productReference = E7D105B319D7304AA386687EBB4398D7 /* Pods_DazzlePanel_DazzlePanelTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A2E5B23CC644694BC05CC47B61B1321 /* WYPopoverController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA19CD81015D0EF7F535CE46449ED9A /* Build configuration list for PBXNativeTarget "WYPopoverController" */;
+			buildPhases = (
+				283D907A95128D217255A1B25FCB1C01 /* Sources */,
+				1F8289557FA4C04A63938D1010C8298E /* Frameworks */,
+				1CBF1BD4150CD37EE63271BC9701F702 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPopoverController;
+			productName = WYPopoverController;
+			productReference = B94BF104FBA3AD335FD5A7853115592F /* WYPopoverController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D8553F91CDDA4CF8376E438666F303C /* Pods-DazzlePanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EA0105CAE1C318FEA84631241A269B /* Build configuration list for PBXNativeTarget "Pods-DazzlePanelUITests" */;
+			buildPhases = (
+				5989761DD8DE7BAA972107654F997BE8 /* Sources */,
+				F63DA4C8390E8BE976F7B5ECE3117695 /* Frameworks */,
+				D77726DD3D9C6B27DB2EFB3CF5E1B033 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DazzlePanelUITests";
+			productName = "Pods-DazzlePanelUITests";
+			productReference = 0095BFC694A4D6F7EC16D35E4297273E /* Pods_DazzlePanelUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3111968CDB3870FB90C9EFAF50CCB87A /* CLWeeklyCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6A1E27CD80D8CD1C7828BA89332B1D /* Build configuration list for PBXNativeTarget "CLWeeklyCalendarView" */;
+			buildPhases = (
+				DA3EB4800D85587DA54FE260D8A12200 /* Sources */,
+				29C7F7FB5EE2BFF2A697C9BE13A634A0 /* Frameworks */,
+				7381ABB08784321F1CB418F982957707 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLWeeklyCalendarView;
+			productName = CLWeeklyCalendarView;
+			productReference = 92FAFA0D0433093FD9CB19F13958B7D0 /* CLWeeklyCalendarView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64A17D7E076E16AEB326A9DE4EA06029 /* PopupController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03961FBC9CFF427D99389E103D28D650 /* Build configuration list for PBXNativeTarget "PopupController" */;
+			buildPhases = (
+				285A25AA83826E6D9A24216187E55FAE /* Sources */,
+				C75B032B437C4DC7B3327E769ECA9374 /* Frameworks */,
+				CF0ED41685240E90314E20F868BAD600 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupController;
+			productName = PopupController;
+			productReference = 988C9601F19D2278AEC6F14D69ED133D /* PopupController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89E0F91D772EC76EC513D80CAEC3795E /* AAViewAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AEF8EA90D628C067D436CC0AA32D55 /* Build configuration list for PBXNativeTarget "AAViewAnimator" */;
+			buildPhases = (
+				DA4B3DAB2B0689995AA62CC462B13925 /* Sources */,
+				5D4B9CC2979305872B556B337E3B51AF /* Frameworks */,
+				A786468711A5CC898E7002FF191B6953 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AAViewAnimator;
+			productName = AAViewAnimator;
+			productReference = 61B6AE389F734826C1D7FD602F56D4BE /* AAViewAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A619FD7EA577D39D0220E5B6CE7D64F3 /* RDVKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59C46C2406A5C9C156D5864BB8F3E9F /* Build configuration list for PBXNativeTarget "RDVKeyboardAvoiding" */;
+			buildPhases = (
+				75AFFFC6B1FEE1E4E10C06A053819E4A /* Sources */,
+				0BD1AAFA14B92BD5EBEA4213C770E7CB /* Frameworks */,
+				1A2FD7977591C78C2B5A952B1CCAE598 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDVKeyboardAvoiding;
+			productName = RDVKeyboardAvoiding;
+			productReference = 9FDAB55FDC530FB53DC477A15D9DDBB7 /* RDVKeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8CAB13762206F301F7B3B3B32BFB5E4 /* TPKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147B91EB654AF6E081DAC00DE78A3EEA /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
+			buildPhases = (
+				B8FECEC93FF5F7E0F635DA9B99774BBF /* Sources */,
+				06F5AE19C218FA424995370A85873B96 /* Frameworks */,
+				20C40F46888BCD498E8EACFAD50CB1D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = 044D6721E8E19984245CD4F7715D6E28 /* TPKeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9B0D426747A02FA3BED3A52E33FBB62 /* Pods-DazzlePanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B732E60BF9FE8E7F32528ABACFABBFB5 /* Build configuration list for PBXNativeTarget "Pods-DazzlePanel" */;
+			buildPhases = (
+				702BFE10FFFCEC7FFDE22F52DAD1EDF6 /* Sources */,
+				0528345A9144D269E55DB1C9F5BCEE71 /* Frameworks */,
+				040134B2636FF3548C977DBBC2C45348 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB2F77F8279882DC6996F17305461F2 /* PBXTargetDependency */,
+				05F00D2995E3692086A9A8A06DC76E9E /* PBXTargetDependency */,
+				0E0EEE2C291AD7436C8DE005F6318335 /* PBXTargetDependency */,
+				80EA5D71E44015C63BF05DD519C88EBB /* PBXTargetDependency */,
+				CDAABD2F9CDCA3AE303E76C691D43D94 /* PBXTargetDependency */,
+				1DA9523DD61792096C20FE2CF332734E /* PBXTargetDependency */,
+			);
+			name = "Pods-DazzlePanel";
+			productName = "Pods-DazzlePanel";
+			productReference = 062467EE797A450FF4C2C47EC82B4D2D /* Pods_DazzlePanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 144084D6C3E5630A804C375B2BF52D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E0F91D772EC76EC513D80CAEC3795E /* AAViewAnimator */,
+				3111968CDB3870FB90C9EFAF50CCB87A /* CLWeeklyCalendarView */,
+				F9B0D426747A02FA3BED3A52E33FBB62 /* Pods-DazzlePanel */,
+				206156BB04ABD035F8642E717F3364EE /* Pods-DazzlePanel-DazzlePanelTests */,
+				2D8553F91CDDA4CF8376E438666F303C /* Pods-DazzlePanelUITests */,
+				64A17D7E076E16AEB326A9DE4EA06029 /* PopupController */,
+				A619FD7EA577D39D0220E5B6CE7D64F3 /* RDVKeyboardAvoiding */,
+				D8CAB13762206F301F7B3B3B32BFB5E4 /* TPKeyboardAvoiding */,
+				2A2E5B23CC644694BC05CC47B61B1321 /* WYPopoverController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283D907A95128D217255A1B25FCB1C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195C4D9C4746B2B2D110C4619DED04BB /* WYPopoverController-dummy.m in Sources */,
+				EC040F90FF17AC5667B7717EA75C009F /* WYPopoverController.m in Sources */,
+				734B1D6DE0DE3F260668FCEFD1828BD9 /* WYStoryboardPopoverSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285A25AA83826E6D9A24216187E55FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61F0E5867ACB4CB9B9C1B45EB2A892C /* PopupController-dummy.m in Sources */,
+				DBC3D131C7DF3A33A8956483A2B64DEF /* PopupController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA701B7C4D252982BBD428603879B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A67AC702C58307842134D9356C2BEF /* Pods-DazzlePanel-DazzlePanelTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5989761DD8DE7BAA972107654F997BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDD68E42275A51D26AC6C30FA45666C /* Pods-DazzlePanelUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702BFE10FFFCEC7FFDE22F52DAD1EDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB92C5C8862C2587240251FA74021E8C /* Pods-DazzlePanel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AFFFC6B1FEE1E4E10C06A053819E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681D5B10783F44F1F6257539F007A9D6 /* RDVKeyboardAvoiding-dummy.m in Sources */,
+				DE635D44F961417CA8448C7122FE4996 /* RDVKeyboardAvoidingScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FECEC93FF5F7E0F635DA9B99774BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42852C15C56E54AA6F87163844413C8E /* TPKeyboardAvoiding-dummy.m in Sources */,
+				ECBB10A09AE22B026115DDF336C48C49 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				CB86E41CEEC4ED0A7B51FAC32D92D9EB /* TPKeyboardAvoidingScrollView.m in Sources */,
+				9DE54F61C91CB3BBA481857D21B09A44 /* TPKeyboardAvoidingTableView.m in Sources */,
+				31B8715F046F5185B4F1402F0FF86B94 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3EB4800D85587DA54FE260D8A12200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BEF50B49875C40409412A8C2F1BCD2 /* CLWeeklyCalendarView-dummy.m in Sources */,
+				633DBB84787947AEE81FE9F4B696F6F3 /* CLWeeklyCalendarView.m in Sources */,
+				7097AAE16A5720A44661552127733081 /* DailyCalendarView.m in Sources */,
+				88B87A75194D7669132B464E2B7981FE /* DayTitleLabel.m in Sources */,
+				9FB25FFCE692497B421D6CDC1D4859A1 /* NSDate+CL.m in Sources */,
+				D1CD90D041534DD931C6119DC32A7CEA /* NSDictionary+CL.m in Sources */,
+				A61B876BB829B5E5D98FEC33E0DAC7D5 /* UIColor+CL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4B3DAB2B0689995AA62CC462B13925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73FBB18A122C5C29F590969D3A279DF /* AAViewAnimator+Helper.swift in Sources */,
+				C35F4582EF6AC1296A822976890E314A /* AAViewAnimator+UIKit.swift in Sources */,
+				290C9017908396DD2A89BEFC9A097901 /* AAViewAnimator-dummy.m in Sources */,
+				1A4C8C01E2D3B01D56AEF5CA0638FD4D /* AAViewAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F00D2995E3692086A9A8A06DC76E9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLWeeklyCalendarView;
+			target = 3111968CDB3870FB90C9EFAF50CCB87A /* CLWeeklyCalendarView */;
+			targetProxy = 245D2585DBD4D84B5AECF44946350FFF /* PBXContainerItemProxy */;
+		};
+		0E0EEE2C291AD7436C8DE005F6318335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupController;
+			target = 64A17D7E076E16AEB326A9DE4EA06029 /* PopupController */;
+			targetProxy = FDE39FCD94A6F452A73196D2ADD06DF7 /* PBXContainerItemProxy */;
+		};
+		1DA9523DD61792096C20FE2CF332734E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYPopoverController;
+			target = 2A2E5B23CC644694BC05CC47B61B1321 /* WYPopoverController */;
+			targetProxy = 9F8310158F28E1834059BE763680A4E3 /* PBXContainerItemProxy */;
+		};
+		22FEBE358B94DD9477095365A8C1BE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupController;
+			target = 64A17D7E076E16AEB326A9DE4EA06029 /* PopupController */;
+			targetProxy = 7DF08DC5BA04FF2C123C9FB9D1932782 /* PBXContainerItemProxy */;
+		};
+		4EDAA2400993A9AC082E157003BB6519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AAViewAnimator;
+			target = 89E0F91D772EC76EC513D80CAEC3795E /* AAViewAnimator */;
+			targetProxy = C873003993CA9264FA2D4DD5D218857A /* PBXContainerItemProxy */;
+		};
+		723883F1B7C878E79B6D4B8E00B62D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLWeeklyCalendarView;
+			target = 3111968CDB3870FB90C9EFAF50CCB87A /* CLWeeklyCalendarView */;
+			targetProxy = 25022AAD5C8F03E05EC94F717BB1C32E /* PBXContainerItemProxy */;
+		};
+		7AB2F77F8279882DC6996F17305461F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AAViewAnimator;
+			target = 89E0F91D772EC76EC513D80CAEC3795E /* AAViewAnimator */;
+			targetProxy = 7532D88C8114871036CA923E67D4733E /* PBXContainerItemProxy */;
+		};
+		80EA5D71E44015C63BF05DD519C88EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RDVKeyboardAvoiding;
+			target = A619FD7EA577D39D0220E5B6CE7D64F3 /* RDVKeyboardAvoiding */;
+			targetProxy = 43DEF9BDE8D0277DF18B5CEC553DD847 /* PBXContainerItemProxy */;
+		};
+		CDAABD2F9CDCA3AE303E76C691D43D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = D8CAB13762206F301F7B3B3B32BFB5E4 /* TPKeyboardAvoiding */;
+			targetProxy = 0C2F62148FDBF3A6D38C379E7A7EE743 /* PBXContainerItemProxy */;
+		};
+		D97DFCB7B9CAFA11C151E134D365556B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RDVKeyboardAvoiding;
+			target = A619FD7EA577D39D0220E5B6CE7D64F3 /* RDVKeyboardAvoiding */;
+			targetProxy = 4756D3C508FF26C72C145D276D4F7882 /* PBXContainerItemProxy */;
+		};
+		F373F4FB5B3AA868FB325F7C5F94C15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = D8CAB13762206F301F7B3B3B32BFB5E4 /* TPKeyboardAvoiding */;
+			targetProxy = D751B5860EC4E0F12F659BF43BC11835 /* PBXContainerItemProxy */;
+		};
+		FB664F859FCBB460382D0A1560FE3CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYPopoverController;
+			target = 2A2E5B23CC644694BC05CC47B61B1321 /* WYPopoverController */;
+			targetProxy = 7083A8A0079E0CE7449B1A4FB92B4F4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C4C1812770AA32403F6AAE662E02E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E3BB3D6FC8A34C122308140F965DBD /* Pods-DazzlePanel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DazzlePanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DazzlePanel/Pods-DazzlePanel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DazzlePanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1E7F894F6245CF50D80C99667920F656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16F943599FE75F263D1F889F9628C2E /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoiding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TPKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		237785C105EDE9B44A8E32F4DB04A1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26133E8984217482F62D65DDE056E34 /* Pods-DazzlePanel-DazzlePanelTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Pods-DazzlePanel-DazzlePanelTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DazzlePanel_DazzlePanelTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A2B9507EB60D945BE406A60651375BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABBB58FC0F13BA3281385394C815BC2 /* AAViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AAViewAnimator/AAViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAViewAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AAViewAnimator/AAViewAnimator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AAViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D3521153FADBA97E3DD8F8FBDF42EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E3C4E2523BD0BE92789638DA83F679 /* WYPopoverController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYPopoverController/WYPopoverController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYPopoverController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYPopoverController/WYPopoverController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WYPopoverController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FCB74065B897024A4E480CC6B985EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E3C4E2523BD0BE92789638DA83F679 /* WYPopoverController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYPopoverController/WYPopoverController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYPopoverController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYPopoverController/WYPopoverController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WYPopoverController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B2973740AB821B8EE49B6F9C0171055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D14678D71CA5175442129C17E00218 /* RDVKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RDVKeyboardAvoiding/RDVKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RDVKeyboardAvoiding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RDVKeyboardAvoiding/RDVKeyboardAvoiding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RDVKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		668A747026F10CFA374EAD6BA22E490C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6330996F987CFAF18B0DEA099A3B5D /* PopupController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupController/PopupController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupController/PopupController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PopupController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CAD33F4FBE473F7298CAC6041959E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC479AE0BAEAE28E5322D55096520025 /* Pods-DazzlePanel-DazzlePanelTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DazzlePanel-DazzlePanelTests/Pods-DazzlePanel-DazzlePanelTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DazzlePanel_DazzlePanelTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F343DF9E95F0A7962756E777721B9D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D14678D71CA5175442129C17E00218 /* RDVKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RDVKeyboardAvoiding/RDVKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RDVKeyboardAvoiding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RDVKeyboardAvoiding/RDVKeyboardAvoiding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RDVKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711B820F6D39DA0C93921DD362B47ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABBB58FC0F13BA3281385394C815BC2 /* AAViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AAViewAnimator/AAViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAViewAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AAViewAnimator/AAViewAnimator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AAViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C1AAADBFF7464D94664161F69A19736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CAEB5E578AA64B0009C196D485ED914 /* Pods-DazzlePanelUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DazzlePanelUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DazzlePanelUITests/Pods-DazzlePanelUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DazzlePanelUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A097C3E25B8CC3FB43D17432A9AA0372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9B866E2737BDC009B00488CCA5810B /* Pods-DazzlePanel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DazzlePanel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DazzlePanel/Pods-DazzlePanel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DazzlePanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9D04CF74A9BCD8059D0E05A1E41B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9DAB9F9CDD916F9C9092FA217DA3B4 /* Pods-DazzlePanelUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DazzlePanelUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DazzlePanelUITests/Pods-DazzlePanelUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DazzlePanelUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B363DB03F97C0BD6F4E6E240D45729D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6330996F987CFAF18B0DEA099A3B5D /* PopupController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PopupController/PopupController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupController/PopupController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PopupController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBE24A2DF69683FBC5C41979C4EF43BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16F943599FE75F263D1F889F9628C2E /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoiding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TPKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1116A6853904BE8C2545C6FCC737DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FF6903E67E60F482653164D3D66E3E /* CLWeeklyCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CLWeeklyCalendarView/CLWeeklyCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLWeeklyCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLWeeklyCalendarView/CLWeeklyCalendarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CLWeeklyCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBBEA3F9A00D5727AFDE746647FFB81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FF6903E67E60F482653164D3D66E3E /* CLWeeklyCalendarView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CLWeeklyCalendarView/CLWeeklyCalendarView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLWeeklyCalendarView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLWeeklyCalendarView/CLWeeklyCalendarView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CLWeeklyCalendarView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EA0105CAE1C318FEA84631241A269B /* Build configuration list for PBXNativeTarget "Pods-DazzlePanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9D04CF74A9BCD8059D0E05A1E41B7D /* Debug */,
+				7C1AAADBFF7464D94664161F69A19736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03961FBC9CFF427D99389E103D28D650 /* Build configuration list for PBXNativeTarget "PopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668A747026F10CFA374EAD6BA22E490C /* Debug */,
+				B363DB03F97C0BD6F4E6E240D45729D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA19CD81015D0EF7F535CE46449ED9A /* Build configuration list for PBXNativeTarget "WYPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FCB74065B897024A4E480CC6B985EEC /* Debug */,
+				4D3521153FADBA97E3DD8F8FBDF42EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147B91EB654AF6E081DAC00DE78A3EEA /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE24A2DF69683FBC5C41979C4EF43BC /* Debug */,
+				1E7F894F6245CF50D80C99667920F656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6A1E27CD80D8CD1C7828BA89332B1D /* Build configuration list for PBXNativeTarget "CLWeeklyCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBEA3F9A00D5727AFDE746647FFB81C /* Debug */,
+				E1116A6853904BE8C2545C6FCC737DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BCB99711C0CD5DD29DB3A362C98B8A /* Build configuration list for PBXNativeTarget "Pods-DazzlePanel-DazzlePanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAD33F4FBE473F7298CAC6041959E2F /* Debug */,
+				237785C105EDE9B44A8E32F4DB04A1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59C46C2406A5C9C156D5864BB8F3E9F /* Build configuration list for PBXNativeTarget "RDVKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F343DF9E95F0A7962756E777721B9D6 /* Debug */,
+				5B2973740AB821B8EE49B6F9C0171055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B732E60BF9FE8E7F32528ABACFABBFB5 /* Build configuration list for PBXNativeTarget "Pods-DazzlePanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A097C3E25B8CC3FB43D17432A9AA0372 /* Debug */,
+				0C4C1812770AA32403F6AAE662E02E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AEF8EA90D628C067D436CC0AA32D55 /* Build configuration list for PBXNativeTarget "AAViewAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2B9507EB60D945BE406A60651375BA /* Debug */,
+				711B820F6D39DA0C93921DD362B47ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
